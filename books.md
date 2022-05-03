@@ -5,7 +5,7 @@ permalink: /books/
 ---
 
 ##### Understanding Analysis
-<font size="1"> Entry date: May 2, 2022. Status: Currently reading.</font> 
+<font size="2"> Entry date: May 2, 2022. Status: Currently reading.</font> 
 
 
 <img src="https://images-na.ssl-images-amazon.com/images/I/310O3IYeQ4L._SX330_BO1,204,203,200_.jpg" width="15%" />
