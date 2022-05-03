@@ -2,7 +2,7 @@
 title:              "The Plain"
 description:        "Zul's scribbles"
 author_name:        "zulfadzli" # change this to your name
-logo_url:           https://avatars.githubusercontent.com/u/104760526?v=4 # Get it from GitHub API: https://api.github.com/users/<username>
+logo_url:           https://raw.githubusercontent.com/zulfadz/the-plain/master/assets/favicon-96x96.png # Get it from GitHub API: https://api.github.com/users/<username>
 
 # Site Settings
 url:                https://zulfadz.github.io # main url
