@@ -3,6 +3,7 @@ layout: page
 title: Books
 permalink: /books/
 ---
+{% include nav.html %}
 
 ##### Understanding Analysis
 <font size="2"> Entry date: May 2, 2022. Status: Currently reading.</font> 
