@@ -1,6 +1,6 @@
 # Site Info
-title:              "The Plain"
-description:        "Zul's scribbles"
+title:              "Zul's scribbles"
+description:        ""
 author_name:        "zulfadzli" # change this to your name
 logo_url:           https://raw.githubusercontent.com/zulfadz/the-plain/master/assets/favicon-96x96.png # Get it from GitHub API: https://api.github.com/users/<username>
 
