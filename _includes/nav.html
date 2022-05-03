@@ -1,10 +1,18 @@
 
 <nav class="nav">
-  <div class="container">
-    <h1 class="logo"><a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">{{ site.title_left }}<span>{{ site.title_right }}</span></a></h1>
     <ul class="navbar">
-      <li><a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">About me</a></li>
-      <li><a href="{{ '/books' | prepend: site.baseurl | prepend: site.url }}">Books</a></li>
+      <li><a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">about me</a></li>
+      <li><a href="{{ '/books' | prepend: site.baseurl | prepend: site.url }}">books</a></li>
+      <li><a href="https://zulfadz.github.io/solutions/">solutions</a></li>
     </ul>
-  </div>
 </nav>
+
+<style>
+      nav ul {
+        display: flex;
+        list-style: none;
+      }
+      nav ul li {
+        margin-right: 10px;
+      }
+</style>
