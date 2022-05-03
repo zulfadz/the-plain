@@ -1,16 +1,20 @@
 
 <nav class="nav">
-    <ul class="navbar">
-      <li><a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">about me</a></li>
-      <li><a href="{{ '/books' | prepend: site.baseurl | prepend: site.url }}">books</a></li>
-      <li><a href="https://zulfadz.github.io/solutions/">solutions</a></li>
+    <ul>
+      <li style="float:center"><a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">about me</a></li>
+      <li style="float:center"><a href="{{ '/books' | prepend: site.baseurl | prepend: site.url }}">books</a></li>
+      <li style="float:center"><a href="https://zulfadz.github.io/solutions/">solutions</a></li>
     </ul>
 </nav>
 
+
+
 <style>
       nav ul {
+        border: 5px;
         display: flex;
         list-style: none;
+        justify-content: center;
         text-align: center;  
         
       }
