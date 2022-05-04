@@ -15,11 +15,11 @@ The Bank of England[^1] has this interesting chart in its Monetary Policy Report
 which turns out to be pretty easy to replicate following the instructions from the footnote.[^2] Below is the replication code in eviews:
 
 
-```
+```html
 for %y backlog inputprice_
 stockfinished stockpurchase delivery2
-	equation eq.ls c neworder
-	eq.makeresid res_
+	equation eq{%y}.ls {%y} c neworder
+	eq{%y}.makeresid res_{%y}
 next
 
 
