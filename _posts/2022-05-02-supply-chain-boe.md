@@ -16,10 +16,7 @@ which turns out to be pretty easy to replicate following the instructions from t
 
 
 ```
-for %y backlog inputprice stockfinished stockpurchase delivery2
-	equation eq{%y}.ls {%y} c neworder
-	eq{%y}.makeresid res_{%y}
-next
+
 
 group pca res_backlog res_inputprice res_stockfinished res_stockpurchase res_delivery2
 freeze(pca_table) pca.pcomp
