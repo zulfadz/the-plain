@@ -13,10 +13,10 @@ Consider this problem[^1]:
 What is the units digit of the sum 1! + 2! + ... + 8988!?
 ```
 
-1. 1! has units digit of 1
-2. 2! has units digit of 2 
-3. 3! has units digit of 6 
-4. 4! = 24 has units digit of 4
+1. 1! has units digit of 1.
+2. 2! has units digit of 2. 
+3. 3! has units digit of 6. 
+4. 4! = 24 has units digit of 4.
 5. 5! = 120 has units digit of 0.
 
 The key observation is that for $$n \geq 5$$, $$n!$$  is a multiple of $$5.2=10$$. This means that the units digit of $$n!$$ is zero when $$n \geq 5$$. 
