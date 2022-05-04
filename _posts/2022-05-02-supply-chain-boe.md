@@ -18,8 +18,8 @@ which turns out to be pretty easy to replicate following the instructions from t
 ```
 for %y backlog inputprice_
 stockfinished stockpurchase delivery2
-	
-	eq{%y}.makeresid res_{%y}
+	equation eq.ls c neworder
+	eq.makeresid res_
 next
 
 
