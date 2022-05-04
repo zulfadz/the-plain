@@ -16,19 +16,20 @@ which turns out to be pretty easy to replicate following the instructions from t
 
 
 ```html
+'Regress to find the residuals
 for %y backlog inputprice_
 stockfinished stockpurchase delivery2
-	equation eq"{%y}".ls "{%y}" c neworder
-	eq"{%y}".makeresid res_"{%y}"
+	equation eq<insert %y>.ls <insert %y> c neworder
+	eq<insert %y>.makeresid res_<insert %y>
 next
 
-
+'Group and run the PCA
 group pca res_backlog res_inputprice _
 res_stockfinished res_stockpurchase_
 res_delivery2
-
 freeze(pca_table) pca.pcomp
 
+'Store first three components
 pca.makepcomp(eigval=eval, eigvec=evec) c1 c2 c3
 
 ```
