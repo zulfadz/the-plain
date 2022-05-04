@@ -18,8 +18,8 @@ which turns out to be pretty easy to replicate following the instructions from t
 ```html
 for %y backlog inputprice_
 stockfinished stockpurchase delivery2
-	equation eq{%y}.ls {%y} c neworder
-	eq{%y}.makeresid res_{%y}
+	equation eq"{%y}".ls "{%y}" c neworder
+	eq"{%y}".makeresid res_"{%y}"
 next
 
 
