@@ -14,7 +14,7 @@ The Bank of England[^1] has this interesting chart in its Monetary Policy Report
 
 which turns out to be pretty easy to replicate following the instructions from the footnote.[^2] Below is the replication code in eviews:
 
-```eviews
+```
 
 'Regress each of the supply indicators against neworder. Extract the residuals
 for %y backlog inputprice stockfinished stockpurchase delivery2
