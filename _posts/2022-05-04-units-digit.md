@@ -10,7 +10,7 @@ keywords: "math, probability"
 Consider this problem[^1]:
 
 ```
-What is the unit digit of the sum 1! + 2! + ... + 8988!?
+What is the units digit of the sum 1! + 2! + ... + 8988!?
 ```
 
 1. 1! has units digit of 1
@@ -21,7 +21,7 @@ What is the unit digit of the sum 1! + 2! + ... + 8988!?
 
 The key observation is that for each $$n \geq 5$$, $$n!$$  is a multiple of $$5.2=10$$. Any integer that is multiple of 10 yields units digit of zero. 
 
-Therefore, it suffices to simply consider the case of 1! + 2! +3! + 4!, whereby the units digit sum up to 3.
+Therefore, it suffices to simply consider the case of 1! + 2! +3! + 4!, in which the units digit is 3.
 
 Footnote:
 
