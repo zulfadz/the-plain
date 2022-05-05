@@ -19,7 +19,7 @@ and so on. Clearly, $$B_1 \cap B_2 = B_2.$$ Using induction, it can also be show
 
 $$\begin{align*}
 \bigcap_{i=1}^{n} B_{i}=B_n.
-\end{align*}.$$ 
+\end{align*}$$ 
 
 Assume the above is true for $$n$$. In the case of $$n+1$$, using associative law, 
 
