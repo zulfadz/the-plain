@@ -39,7 +39,7 @@ pca.makepcomp(eigval=eval, eigvec=evec) c1 c2 c3
 
 ### Findings
 
-<img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/BOE.png" width="400" height="400" />
+<img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/SS.png" width="400" />
 
 
 Note that there is another [supply chain index](https://libertystreeteconomics.newyorkfed.org/2022/03/global-supply-chain-pressure-index-march-2022-update/) which is similar, except that it uses more information by allowing for cross-country linkages and more measures of transportation costs.
