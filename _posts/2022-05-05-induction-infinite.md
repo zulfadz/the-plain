@@ -41,7 +41,7 @@ $$\begin{align*}
 \bigcap_{i=1}^{\infty} B_{i}=\emptyset
 \end{align*}.$$ 
 
-To see why, suppose there is $$x \in \mathbf{N}$$ which satisfies $$x \in \bigcap_{i=1}^{\infty} B_{i}$$. This means that $$x$$ is an element of all $$B_i$$ in our collection. However, this is a contradiction because $$x$$ is not an element of $$B_{x+1}$$.
+To see why, suppose there is $$x \in \mathbf{N}$$ which satisfies $$x \in \bigcap_{i=1}^{\infty} B_{i}$$. This means that $$x$$ is an element of all $$B_i$$ in our collection. However, this is a contradiction because $$x$$ is not an element of $$B_{x+1}$$. Therefore, such an $$x$$ does not exist.
 
 Footnote:
 
