@@ -35,7 +35,7 @@ B_n \cap B_{n+1}
 
 which is equal to $$B_{n+1}$$. Therefore $$\bigcap_{i=1}^{n} B_{i}=B_n$$ holds for all $$n \in \mathbf{N}$$.
 
-Nonetheless, don't be misled to think that it also holds for infinite case, because the fact is that
+Nonetheless, don't be misled to think that it also holds for infinite case, because the fact is that in infinite case, the intersections produce an empty set:
 
 $$\begin{align*} 
 \bigcap_{i=1}^{\infty} B_{i}=\emptyset
