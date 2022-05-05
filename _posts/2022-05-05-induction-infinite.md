@@ -19,7 +19,7 @@ and so on. Clearly, $$B_1 \cap B_2 = B_2.$$ Using induction, it can also be show
 
 $$\begin{align*}
 \bigcap_{i=1}^{n} B_{i}=B_n.
-\end{align*}$$ 
+\end{align*}.$$ 
 
 Assume the above is true for $$n$$. In the case of $$n+1$$, using associative law, 
 
@@ -35,10 +35,11 @@ B_n \cap B_{n+1}
 
 which is equal to $$B_{n+1}$$. Therefore $$\bigcap_{i=1}^{n} B_{i}=B_n$$ holds for all $$n \in \mathbf{N}$$.
 
-Nonetheless, don't lead this mislead you to think that it holds for infinite case, because 
+Nonetheless, don't be misled to think that it also holds for infinite case, because 
+
 $$\begin{align*} 
 \bigcap_{i=1}^{\infty} B_{i}=\emptyset
-\end{align*}$$ 
+\end{align*}.$$ 
 
 To see why, suppose there is $$x \in \mathbf{N}$$ which satisfies $$x \in \bigcap_{i=1}^{\infty} B_{i}$$. This means that $$x$$ is an element of all $$B_i$$ in our collection. However, this is a contradiction because $$x$$ is not an element of $$B_{x+1}$$.
 
