@@ -35,7 +35,7 @@ B_n \cap B_{n+1}
 
 which is equal to $$B_{n+1}$$. Therefore $$\bigcap_{i=1}^{n} B_{i}=B_n$$ holds for all $$n \in \mathbf{N}$$.
 
-Nonetheless, this does not hold for infinite case, because 
+Nonetheless, don't lead this mislead you to think that it holds for infinite case, because 
 $$\begin{align*} 
 \bigcap_{i=1}^{\infty} B_{i}=\emptyset
 \end{align*}$$ 
