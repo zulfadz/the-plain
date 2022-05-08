@@ -6,6 +6,10 @@ description: "physics"
 keywords: "physics, electromagnetism, waves"
 ---
 
+
+
+The Bank of England[^1] has this interesting chart in its Monetary Policy Report:
+
 Polarization refers to the direction that electric field points, given particular space and time. Typically, we think of the electric field as pointing in a linear direction. For instance, let $$H$$ and $$V$$ be the horizontal and vertical vectors respectively. This linear polarization is illustrated in figure below. When looking at the incoming waves along the z axis, the polarization ellipse shows a movement of up and down along the v axis.
 
 <img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/linear-v.gif" width="400"/>
