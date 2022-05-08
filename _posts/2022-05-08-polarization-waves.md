@@ -80,7 +80,8 @@ References:
 1. [kridnix youtube channel](https://www.youtube.com/watch?v=84AcKIcF7VY&t=705s)
 2. [Matlab simulation tool](https://www.mathworks.com/help/phased/ug/modeling-and-analyzing-polarization.html)
 
+Note:
+1. All the simulations are done via Matlab.
 
 Footnote:
-
 [^1]: [Khan Academy](https://www.youtube.com/watch?v=9WZM68aVnGk&t=618s)
