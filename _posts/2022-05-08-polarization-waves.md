@@ -23,7 +23,7 @@ u_v E_v cos(\omega t-kz+\phi_v)
 
 
 
-where $$u_h$$ and $$u_v$$ are the unit vectors of h and v axes, respectively. As a brief refresher, $$\omega$$ (*angular frequency*) is a term that dictates at what time the amplitude resets, and $$k$$ is a term that dictates at which distance along z-axis the amplitude resets.[^1] Meanwhile, $$\phi_h$$ and $$\phi_v$$ are the terms that will shift the waves along the h and v axes respectively. 
+where $$u_h$$ and $$u_v$$ are the unit vectors of h and v axes, respectively. As a brief refresher, $$\omega$$ (*angular frequency*) is a term that dictates at what time the amplitude resets, and $$k$$ is a term that dictates at which distance along z-axis the amplitude resets.[^1] Meanwhile, $$\phi_h$$ and $$\phi_v$$ are the phase terms. 
 
 ## Case 1: Linear polarization - one component.
 
