@@ -16,8 +16,8 @@ However, the fact is that the electric field vector direction can change in spac
 The corresponding equation of the plane wave is given by
 
 $$\begin{align} 
-E = \bf{u}_h|E_h|{\rm cos}(\omega t-kz+\phi_h) + 
-\bf{u}_v|E_v|{\rm cos}(\omega t-kz+\phi_v) 
+E = \bf{u}_h E_h {\rm cos}(\omega t-kz+\phi_h) + 
+\bf{u}_v E_v {\rm cos}(\omega t-kz+\phi_v) 
 
 \end{align}$$ 
 
@@ -28,48 +28,46 @@ where $$\bf{u}_h$$ and $$\bf{u}_v$$ are the unit vector of h and v axes, respect
 The simplest case is when the electrical field is just moving in one axis. We have shown one such case in figure above, where $$\mathbf{E}$$ is pointing only in $$ \pm \mathbf{u_v}$$. Mathematically, this can be written as 
 
 $$\begin{align*}
-E &= \bf{u}_h|E_h|{\rm cos}(\omega t-kz+\phi_h) + 
-\bf{u}_v 0. {\rm cos}(\omega t-kz+\phi_v) \\
-&= \bf{u}_h|E_h|{\rm cos}(\omega t-kz+\phi_h) 
+E &= \bf{u}_h.0.{\rm cos}(\omega t-kz+\phi_h) + 
+\bf{u}_v E_v {\rm cos}(\omega t-kz+\phi_v) \\
+&= \bf{u}_h|E_v{\rm cos}(\omega t-kz+\phi_v) 
 \end{align*}$$
 
-In this case, $$\phi_h$$ can be set to zero, as it is not relevant in one component case.
+In this case, $$\phi_z$$ can be set to zero, as it is not relevant in one component case.
 
 ## Case 2: Linear polarization - two components.
 
-Another linear case is when when the electrical field is not pointing in the h or v directions. In this case, we rely on the equation above to make inference about the direction and amplitude of the polarization. Moreover, the phase terms $$ \mathbf{\phi_v},\mathbf{\phi_h}$$ become very critical.
+Another linear case is when when the electrical field is not pointing in the h or v directions. In this case, we rely on the equation above to make inference about the direction and amplitude of the polarization. Moreover, the phase terms $$ \phi_v,\phi_h$$ become very critical.
 
-Consider the case when $$ \mathbf{\phi_v} - \mathbf{\phi_h}=0$$. In this case, the polarization will be a straight line along 45 $$^{\circ}$$. As $$E_h$$ moves to the right, $$E_v$$ moves up by the same magnitude, at the same time. These result in a 45 $$^{\circ}$$ line towards the top right. Conversely, when $$E_h$$ moves to the left, $$E_v$$ also moves down by the same magnitude, at the same time. These creates a line towards the bottom left. 
+Consider the case when $$ \phi_v - \phi_h=0$$. In this case, the polarization will be a straight line along 45 $$^{\circ}$$. As $$E_h$$ moves to the right, $$E_v$$ moves up by the same magnitude, at the same time. These result in a 45 $$^{\circ}$$ line towards the top right. Conversely, when $$E_h$$ moves to the left, $$E_v$$ also moves down by the same magnitude, at the same time. These creates a line towards the bottom left. 
 
 
 <img src="https://github.com/zulfadz/zulfadz.github.io/blob/master/pictures/%20idk0..gif?raw=true" width="400"/>
 
 <img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/linear-45.gif" width="400"/>
 
-Mirroring this observation is when $$ \mathbf{\phi_v} - \mathbf{\phi_h}=\pi$$. In this case,  the polarization is a straight line along -45 $$^{\circ}$$.
+Mirroring this observation is when $$\phi_v - \phi_h=\pi$$. In this case,  the polarization is a straight line along -45 $$^{\circ}$$.
 
 
 <img src="https://github.com/zulfadz/zulfadz.github.io/blob/master/pictures/%20idk..gif?raw=true" width="400"/>
 
 <img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/linear-negative45.gif" width="400"/>
 
-Therefore, polarization remains linear (i.e. a straightline) in both cases. More generally, this happens when the phase terms are "in-sync". This occurs when $$ \mathbf{\phi_v} - \mathbf{\phi_h}=0, \pi, \pi,$$ or $$2\pi $$. 
+Therefore, polarization remains linear (i.e. a straightline) in both cases. More generally, this happens when the phase terms are "in-sync". This occurs when $$ \phi_v - \phi_h=0, \pi, \pi,$$ or $$2\pi $$. 
 
 ## Case 3: Circular polarization.
 
 Circular polarization occurs when the polarization is making a circular movement around the z axis. It may be difficult to imagine that a vector in space can have a circular component, but this is definitely possible from equation above. For circular polarization to occur, the phase terms should be out of sync by 
 
-$$\begin{align} 
-
-\mathbf{\phi_v} - \mathbf{\phi_h} =\pi/2 \text{ or} -\pi/2
-
-\end{align}$$ 
+$$\begin{align*} 
+\phi_v - \phi_h =\pi/2 \text{ or} -\pi/2
+\end{align*}$$ 
 
 and the amplitude remains the same, $$|E_h|=|E_v|$$. 
 
 
 
-Figures below illustrates the case when $$phi_h=0, phi_v=\pi/2$$.
+Figures below illustrates the case when $$\phi_h=0, \phi_v=\pi/2$$.
 
 <img src="https://github.com/zulfadz/zulfadz.github.io/blob/master/pictures/%20idk0.5..gif?raw=true" width="400"/>
 
@@ -77,7 +75,7 @@ Figures below illustrates the case when $$phi_h=0, phi_v=\pi/2$$.
 
 ## Case 4: Elliptical polarization.
 
-The circular polarization is a specific case of elliptical polarization. In general, the amplitudes do not have to be the same. When the phase terms are out of sync by other values, the resulting polarization will resemble an ellipse. For instance, when $$\mathbf{\phi_v} - \mathbf{\phi_h} =\pi/4$$, we get the following polarization:
+The circular polarization is a specific case of elliptical polarization. In general, the amplitudes do not have to be the same. When the phase terms are out of sync by other values, the resulting polarization will resemble an ellipse. For instance, when $$\phi_v - \phi_h =\pi/4$$, we get the following polarization:
 
 <img src="https://github.com/zulfadz/zulfadz.github.io/blob/master/pictures/%20idk0.25..gif?raw=true" width="400"/>
 
