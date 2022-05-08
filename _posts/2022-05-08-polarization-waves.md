@@ -19,14 +19,14 @@ However, the fact is that the electric field vector direction can change in spac
 
 The corresponding equation of the plane wave is given by
 
-$$\begin{align} 
-E = \mathbf{u}_h E_h  cos(\omega t-kz+\phi_h) + 
-\mathbf{u}_v E_v cos(\omega t-kz+\phi_v) 
-\end{align}$$ 
+$$\begin{align*} 
+E = u_h E_h  cos(\omega t-kz+\phi_h) + 
+u_v E_v cos(\omega t-kz+\phi_v) 
+\end{align*}$$ 
 
 
 
-where $$u_h$$ and $$u_v$$ are the unit vector of h and v axes, respectively. As a brief refresher, $$\omega$$ (*angular frequency*) is a term that dictates at what time the amplitude resets, $$k$$ is a term that dictates at which distance along z-axis the amplitude resets.[^1] Meanwhile, $$\phi_h$$ and $$\phi_v$$ are the terms that will shift the waves along the h and v axes respectively. 
+where $$u_h$$ and $$u_v$$ are the unit vector of h and v axes, respectively. As a brief refresher, $$\omega$$ (*angular frequency*) is a term that dictates at what time the amplitude resets, and $$k$$ is a term that dictates at which distance along z-axis the amplitude resets.[^2] Meanwhile, $$\phi_h$$ and $$\phi_v$$ are the terms that will shift the waves along the h and v axes respectively. 
 
 ## Case 1: Linear polarization - one component.
 
@@ -83,4 +83,7 @@ Note:
 1. All the simulations are done via Matlab.
 
 Footnote:
-[^1]: [Khan Academy](https://www.youtube.com/watch?v=9WZM68aVnGk&t=618s)
+
+[^1]: [Khan Academy](https://www.youtube.com/watch?v=9WZM68aVnGk&t=618s).
+[^2]: Make sure to invert the delivery times. Thanks to my friend Eilyn for pointing this out.
+
