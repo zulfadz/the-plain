@@ -7,9 +7,6 @@ keywords: "physics, electromagnetism, waves"
 ---
 
 
-
-The Bank of England[^1] has this interesting chart in its Monetary Policy Report:
-
 Polarization refers to the direction that electric field points, given particular space and time. Typically, we think of the electric field as pointing in a linear direction. For instance, let $$H$$ and $$V$$ be the horizontal and vertical vectors respectively. This linear polarization is illustrated in figure below. When looking at the incoming waves along the z axis, the polarization ellipse shows a movement of up and down along the v axis.
 
 <img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/linear-v.gif" width="400"/>
@@ -26,7 +23,7 @@ u_v E_v cos(\omega t-kz+\phi_v)
 
 
 
-where $$u_h$$ and $$u_v$$ are the unit vector of h and v axes, respectively. As a brief refresher, $$\omega$$ (*angular frequency*) is a term that dictates at what time the amplitude resets, and $$k$$ is a term that dictates at which distance along z-axis the amplitude resets.[^2] Meanwhile, $$\phi_h$$ and $$\phi_v$$ are the terms that will shift the waves along the h and v axes respectively. 
+where $$u_h$$ and $$u_v$$ are the unit vector of h and v axes, respectively. As a brief refresher, $$\omega$$ (*angular frequency*) is a term that dictates at what time the amplitude resets, and $$k$$ is a term that dictates at which distance along z-axis the amplitude resets.[^1] Meanwhile, $$\phi_h$$ and $$\phi_v$$ are the terms that will shift the waves along the h and v axes respectively. 
 
 ## Case 1: Linear polarization - one component.
 
@@ -85,5 +82,4 @@ Note:
 Footnote:
 
 [^1]: [Khan Academy](https://www.youtube.com/watch?v=9WZM68aVnGk&t=618s).
-[^2]: Make sure to invert the delivery times. Thanks to my friend Eilyn for pointing this out.
 
