@@ -57,7 +57,7 @@ Therefore, polarization remains linear (i.e. a straightline) in both cases. More
 
 ## Case 3: Circular polarization.
 
-Circular polarization occurs when the polarization is making a circular movement around the z axis. It may be difficult to imagine that a vector in space can have a circular component, but this is definitely possible from equation above. For circular polarization to occur, the phase terms should not be out of sync by 
+Circular polarization occurs when the polarization is making a circular movement around the z axis. It may be difficult to imagine that a vector in space can have a circular component, but this is definitely possible from equation above. For circular polarization to occur, the phase terms should be out of sync by 
 
 $$\begin{align} 
 
