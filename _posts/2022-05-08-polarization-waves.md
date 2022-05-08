@@ -39,7 +39,7 @@ In this case, $$\phi_v$$ can be set to zero, as it is not relevant in one compon
 
 ## Case 2: Linear polarization - two components.
 
-Another linear case is when when the electrical field is not pointing in the h or v directions. In this case, we rely on the equation above to make inference about the direction and amplitude of $$\mathbf{E}. Moreover, the phase terms $$ \phi_v,\phi_h$$ become very critical.
+Another linear case is when when the electrical field is not pointing in the h or v directions. In this case, we rely on the equation above to make inference about the direction and amplitude of $$\mathbf{E}$$. Moreover, the phase terms $$ \phi_v,\phi_h$$ become very critical.
 
 Consider the case when $$ \phi_v - \phi_h=0$$. In this case, the polarization will be a straight line along 45 $$^{\circ}$$. As $$E_h$$ moves to the right, $$E_v$$ moves up by the same magnitude, at the same time. These result in a 45 $$^{\circ}$$ line towards the top right. Conversely, when $$E_h$$ moves to the left, $$E_v$$ moves down by the same magnitude, at the same time. These creates a line towards the bottom left. 
 
