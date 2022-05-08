@@ -6,14 +6,12 @@ description: "physics"
 keywords: "physics, electromagnetism, waves"
 ---
 
-Polarization refers to the direction that electric field points, given particular space and time. Typically, we think of the electric field as pointing in a linear direction. For instance, let $$H$$ and $$V$$ stand for horizontal and vertical vectors respectively. This linear polarization is illustrated in Figure 1:
+Polarization refers to the direction that electric field points, given particular space and time. Typically, we think of the electric field as pointing in a linear direction. For instance, let $$H$$ and $$V$$ be the horizontal and vertical vectors respectively. This linear polarization is illustrated in figure below. When looking at the incoming waves along the z axis, the polarization ellipse shows a movement of up and down along the h axis.
 
 <img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/linear-v.gif" width="400"/>
 
 
-where the polarization ellipse illustrates what the movement of the field would look like if you stand at the z-axis, looking at the incoming wave.
-
-However, the fact is that the electric field vector direction can change in space and time. We know that it is orthogonal to the $$\mathbf{u_z}$$, unit vector of z axis. That means the electric field can be pointing to any direction in the plane $$\mathbf{H-V}$$. It does not necessarily have to point exactly in the $$\mathbf{u_h}$$ or $$\mathbf{u_v}$$, it can also point somewhere between them. On the surface, this makes polarization harder to capture mathematically. However, from the principles of superposition of plane waves, we know that the total wave is the sum of all components. Moreover, any plane wave can be subdivided into two or more components. This allows us to generalize the field in terms of h and v axes.
+However, the fact is that the electric field vector direction can change in space and time. We know that it is orthogonal to the $$\mathbf{u_z}$$, unit vector of z axis. That means the electric field can be pointing to any direction in the plane $$\mathbf{H-V}$$. It does not necessarily have to point exactly in the $$\mathbf{u_h}$$ or $$\mathbf{u_v}$$, because it can also point somewhere between them. On the surface, this makes polarization harder to capture mathematically. However, from the principles of superposition of plane waves, we know that the total wave is the sum of all components. Moreover, any plane wave can be subdivided into two or more components. This allows us to generalize the field in terms of h and v axes.
 
 The corresponding equation of the plane wave is given by
 
