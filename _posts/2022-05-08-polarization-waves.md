@@ -25,7 +25,7 @@ where $$\bf{u}_h$$ and $$\bf{u}_v$$ are the unit vector of h and v axes, respect
 
 ## Case 1: Linear polarization - one component.
 
-The simplest case is when the electrical field is just moving in one axis. We have shown one such case in Figure 1, where $$\mathbf{E}$$ is pointing only in $$ \pm \mathbf{u_v}$$. Mathematically, this can be written as 
+The simplest case is when the electrical field is just moving in one axis. We have shown one such case in figure above, where $$\mathbf{E}$$ is pointing only in $$ \pm \mathbf{u_v}$$. Mathematically, this can be written as 
 
 $$\begin{align*}
 E &= \bf{u}_h|E_h|{\rm cos}(\omega t-kz+\phi_h) + 
@@ -37,7 +37,7 @@ In this case, $$\phi_h$$ can be set to zero, as it is not relevant in one compon
 
 ## Case 2: Linear polarization - two components.
 
-Another linear case is when when the electrical field is not pointing in the h or v directions. In this case, we rely on the equation above to make inference about the direction of the polarization. Moreover, the phase terms $$ \mathbf{\phi_v},\mathbf{\phi_h}$$ become very critical.
+Another linear case is when when the electrical field is not pointing in the h or v directions. In this case, we rely on the equation above to make inference about the direction and amplitude of the polarization. Moreover, the phase terms $$ \mathbf{\phi_v},\mathbf{\phi_h}$$ become very critical.
 
 Consider the case when $$ \mathbf{\phi_v} - \mathbf{\phi_h}=0$$. In this case, the polarization will be a straight line along 45 $$\degree$$. As $$E_h$$ moves to the right, $$E_v$$ moves up by the same magnitude, at the same time. These result in a 45 $$\degree$$ line towards the top right. Conversely, when $$E_h$$ moves to the left, $$E_v$$ also moves down by the same magnitude, at the same time. These creates a line towards the bottom left. 
 
