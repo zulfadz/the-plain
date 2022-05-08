@@ -30,10 +30,10 @@ The simplest case is when the electrical field is just moving in one axis. We ha
 $$\begin{align*}
 E &= \bf{u}_h.0.{\rm cos}(\omega t-kz+\phi_h) + 
 \bf{u}_v E_v {\rm cos}(\omega t-kz+\phi_v) \\
-&= \bf{u}_h|E_v{\rm cos}(\omega t-kz+\phi_v) 
+&= \bf{u}_h E_v{\rm cos}(\omega t-kz+\phi_v) 
 \end{align*}$$
 
-In this case, $$\phi_z$$ can be set to zero, as it is not relevant in one component case.
+In this case, $$\phi_v$$ can be set to zero, as it is not relevant in one component case.
 
 ## Case 2: Linear polarization - two components.
 
@@ -59,15 +59,11 @@ Therefore, polarization remains linear (i.e. a straightline) in both cases. More
 
 Circular polarization occurs when the polarization is making a circular movement around the z axis. It may be difficult to imagine that a vector in space can have a circular component, but this is definitely possible from equation above. For circular polarization to occur, the phase terms should be out of sync by 
 
-$$\begin{align*} 
+$$\begin{equation*} 
 \phi_v - \phi_h =\pi/2 \text{ or} -\pi/2
-\end{align*}$$ 
+\end{equation*}$$ 
 
-and the amplitude remains the same, $$|E_h|=|E_v|$$. 
-
-
-
-Figures below illustrates the case when $$\phi_h=0, \phi_v=\pi/2$$.
+and the amplitude remains the same, $$|E_h|=|E_v|$$. Figures below illustrates the case when $$\phi_h=0, \phi_v=\pi/2$$.
 
 <img src="https://github.com/zulfadz/zulfadz.github.io/blob/master/pictures/%20idk0.5..gif?raw=true" width="400"/>
 
