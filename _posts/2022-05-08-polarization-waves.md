@@ -37,10 +37,10 @@ Consider the case when $$ \phi_v - \phi_h=0$$. In this case, the polarization wi
 
 Mirroring this observation is when $$\phi_v - \phi_h=\pi$$. In this case,  the polarization is a straight line along -45 $$^{\circ}$$.
 
+<img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/linear-negative45.gif" width="400"/>
 
 <img src="https://github.com/zulfadz/zulfadz.github.io/blob/master/pictures/%20idk..gif?raw=true" width="400"/>
 
-<img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/linear-negative45.gif" width="400"/>
 
 Therefore, polarization remains linear (i.e. a straightline) in both cases. More generally, this happens when the phase terms are "in-sync". This occurs when $$ \phi_v - \phi_h=0, \pi, \pi,$$ or $$2\pi $$. 
 
@@ -48,9 +48,10 @@ Therefore, polarization remains linear (i.e. a straightline) in both cases. More
 
 Circular polarization occurs when the polarization is making a circular movement around the z axis. It may be difficult to imagine that a vector in space can have a circular component, but this is definitely possible from equation above. For circular polarization to occur, the phase terms should be out of sync by $$\phi_v - \phi_h =\pi/2$$ or $$ -\pi/2$$ and the amplitude remains the same. Figures below illustrates the case when $$\phi_h=0, \phi_v=\pi/2$$.
 
+<img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/circular-rhs.gif" width="400"/>
+
 <img src="https://github.com/zulfadz/zulfadz.github.io/blob/master/pictures/%20idk0.5..gif?raw=true" width="400"/>
 
-<img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/circular-rhs.gif" width="400"/>
 
 ## Case 4: Elliptical polarization.
 
