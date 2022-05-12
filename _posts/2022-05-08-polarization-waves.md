@@ -12,41 +12,28 @@ Polarization refers to the direction that electric field points, given particula
 <img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/linear-v.gif" width="400"/>
 
 
-However, the fact is that the electric field vector direction can change in space and time. We know that it is orthogonal to z axis. That means the electric field can be pointing to any direction in the plane $$H-V$$. On the surface, this makes polarization harder to capture mathematically. However, from the principles of superposition of plane waves, we know that the total wave is the sum of all components. Moreover, any plane wave can be subdivided into two or more components. This allows us to generalize in terms of  h and v axes.
+However, the fact is that the electric field vector direction can change in space and time. We know that it is orthogonal to z axis. That means the electric field can be pointing to any direction in the plane $$H-V$$. 
 
-The corresponding equation of the plane wave is given by
+Recall the equation of the plane wave:
 
 $$\begin{align*} 
 \mathbf{E} = u_h E_h  cos(\omega t-kz+\phi_h) + 
 u_v E_v cos(\omega t-kz+\phi_v) 
-\end{align*}$$ 
+\end{align*}$$[^1]
 
-
-
-where $$u_h$$ and $$u_v$$ are the unit vectors of h and v axes, respectively. As a brief refresher, $$\omega$$ (*angular frequency*) is a term that dictates at what time the amplitude resets, and $$k$$ is a term that dictates at which distance along z-axis the amplitude resets.[^1] Meanwhile, $$\phi_h$$ and $$\phi_v$$ are the phase terms. 
 
 ## Case 1: Linear polarization - one component.
 
-The simplest case is when the electrical field is just pointing in one axis. We have shown one such case in figure above, where $$\mathbf{E}$$ is pointing only in $$ \pm u_v$$. Mathematically, this can be written as 
-
-$$\begin{align*}
-\mathbf{E} &= u_h.0.cos(\omega t-kz+\phi_h) + 
-u_v E_v cos(\omega t-kz+\phi_v) \\
-&= u_v E_v cos(\omega t-kz+\phi_v) 
-\end{align*}$$
-
-In this case, $$\phi_v$$ can be set to zero, as it is not relevant in one component case.
+The simplest case is when the electrical field is just pointing in one axis. We have shown one such case in figure above, where $$\mathbf{E}$$ is pointing only in $$ \pm u_v$$.
 
 ## Case 2: Linear polarization - two components.
 
-Another linear case is when when the electrical field is not pointing in the h or v directions. In this case, we rely on the equation above to make inference about the direction and amplitude of $$\mathbf{E}$$. Moreover, the phase terms $$ \phi_v,\phi_h$$ become very critical.
-
 Consider the case when $$ \phi_v - \phi_h=0$$. In this case, the polarization will be a straight line along 45 $$^{\circ}$$. As $$E_h$$ moves to the right, $$E_v$$ moves up by the same magnitude, at the same time. These result in a 45 $$^{\circ}$$ line towards the top right. Conversely, when $$E_h$$ moves to the left, $$E_v$$ moves down by the same magnitude, at the same time. These creates a line towards the bottom left. 
 
+<img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/linear-45.gif" width="400"/>
 
 <img src="https://github.com/zulfadz/zulfadz.github.io/blob/master/pictures/%20idk0..gif?raw=true" width="400"/>
 
-<img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/linear-45.gif" width="400"/>
 
 Mirroring this observation is when $$\phi_v - \phi_h=\pi$$. In this case,  the polarization is a straight line along -45 $$^{\circ}$$.
 
@@ -81,5 +68,5 @@ Note:
 
 Footnote:
 
-[^1]: [Khan Academy](https://www.youtube.com/watch?v=9WZM68aVnGk&t=618s).
+[^1]: $$u_h$$ and $$u_v$$ are the unit vectors of h and v axes, respectively. As a brief refresher, $$\omega$$ (*angular frequency*) is a term that dictates at what time the amplitude resets, and $$k$$ is a term that dictates at which distance along z-axis the amplitude resets. Meanwhile, $$\phi_h$$ and $$\phi_v$$ are the phase terms. [Khan Academy](https://www.youtube.com/watch?v=9WZM68aVnGk&t=618s).
 
