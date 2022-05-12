@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Infinite sets, which does not overlap, which forms the whole natural numbers"
+title: "Infinite sets, which do not overlap, which form the whole natural numbers"
 comments: true
 description: "analysis"
 keywords: "math, analysis"
@@ -24,6 +24,7 @@ $$\begin{array}{lccccc}
     \vdots & & & & &
   \end{array}$$
 
+Therefore, each row represents a set containing an infinite elements, and there are infinite number of such rows.
 
 Footnote:
 
