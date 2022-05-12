@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blog dump: Sketching Hirose's optimization problem"
+title: "Blog dump: Sketching Hirose's optimization steps"
 comments: true
 description: "optimization"
 keywords: "math, optimization, photo dump, "
