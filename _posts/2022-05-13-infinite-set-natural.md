@@ -7,8 +7,8 @@ keywords: "math, analysis"
 ---
 
 Consider an infinite collection of sets $$B_1, B_2, B_3, \cdots $$ where
-1. Each $$B_i$$ contains infinite number of elements
-2. $$B_i \cap B_j = \emptyset $$ for all $$i \neq j$$
+1. Each $$B_i$$ contains infinite number of elements.
+2. $$B_i \cap B_j = \emptyset $$ for all $$i \neq j$$.
 
 How do we design such collection of sets, such that $$ \cup_{i=1}^{\infty} = \mathbf{N}$$?[^1]
 
