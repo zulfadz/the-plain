@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Blog dump: Sketching Hirose's optimization problem"
+comments: true
+description: "optimization"
+keywords: "math, optimization, photo dump, "
+---
+
+
+This is my trying to understand derivation of Hirose and Naganuma[^1] optimization problem, specifically to arrive at equation 3 of the paper:
+
+
+
+
+Footnote:
+
+[^1]: [Paper](https://www.boj.or.jp/en/research/wps_rev/wps_2007/data/wp07e24.pdf)
