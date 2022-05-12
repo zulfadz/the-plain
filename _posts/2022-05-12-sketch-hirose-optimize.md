@@ -7,7 +7,7 @@ keywords: "math, optimization, photo dump, "
 ---
 
 
-This is my trying to understand derivation of Hirose and Naganuma[^1] optimization problem, specifically to arrive at equation 3 of the paper:
+This is my trying to understand the derivation of Hirose and Naganuma[^1] optimization, specifically to arrive at equation 3 of the paper:
 
 <img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/hirose1.png" width="400"/>
 
