@@ -116,7 +116,7 @@ The simplest case is when the electrical field is just pointing in one axis, in 
 
 ### Case 2: Linear polarization - two components.
 
-Consider the case when $$|E_h| = |E_v| =1$$ and $$ \phi_v - \phi_h=0$$. In this case, the polarization will be a straight line along 45 $$^{\circ}$$.  
+Consider the case when $$|E_{h}| = |E_{v}| =1 $$ and $$ \phi_v - \phi_h=0$$. In this case, the polarization will be a straight line along 45 $$^{\circ}$$.  
 
 <img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/linear-45.gif" width="400"/>
 
