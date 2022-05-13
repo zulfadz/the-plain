@@ -132,9 +132,9 @@ Mirroring this observation is when $$\phi_v - \phi_h=\pi$$. In this case,  the p
 
 Therefore, polarization remains linear (i.e. a straightline) in both cases. More generally, this happens when the phase terms are "in-sync". This occurs when $$ \phi_v - \phi_h=0, \pi, \pi,$$ or $$2\pi $$. 
 
-## Case 3: Circular polarization.
+### Case 3: Circular polarization.
 
-Circular polarization occurs when the polarization is making a circular movement around the z axis. It may be difficult to imagine that a vector in space can have a circular component. For circular polarization to occur, the phase terms should be out of sync by $$\phi_v - \phi_h =\pi/2$$ or $$ -\pi/2$$ and the amplitude remains the same. Figures below illustrates the case when $$\phi_h=0, \phi_v=\pi/2$$ and $$|E_h| = |E_v| =1$$.
+Circular polarization occurs when the polarization is making a circular movement around the z axis. It may be difficult to imagine that a vector in space can have a circular component. For circular polarization to occur, the phase terms should be out of sync by $$\phi_v - \phi_h =\pi/2$$ or $$ -\pi/2$$ and the amplitude remains the same. Figures below illustrates the case when $$\phi_h=0, \phi_v=\pi/2$$ and $$ \lvert E_h \rvert = \lvert E_v \rvert =1$$.
 
 <img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/circular-rhs.gif" width="400"/>
 
@@ -143,7 +143,7 @@ Circular polarization occurs when the polarization is making a circular movement
 
 ## Case 4: Elliptical polarization.
 
-The circular polarization is a specific case of elliptical polarization. In general, the amplitudes do not have to be the same. When the phase terms are out of sync by other values, the resulting polarization will resemble an ellipse. For instance, when $$\phi_v - \phi_h =\pi/4$$, we get the following polarization:
+The circular polarization is a specific case of elliptical polarization. In general, the amplitudes of the locus tracing the polarization do not have to be the same. When the phase terms are out of sync by other values, the resulting polarization will resemble an ellipse. For instance, when $$\phi_v - \phi_h =\pi/4$$ and $$ \lvert E_h \rvert = \lvert E_v \rvert =1$$, we get the following polarization:
 
 <img src="https://github.com/zulfadz/zulfadz.github.io/blob/master/pictures/%20idk0.25..gif?raw=true" width="400"/>
 
@@ -152,7 +152,7 @@ The circular polarization is a specific case of elliptical polarization. In gene
 Footnote:
 
 [^1]: $$u_h$$ and $$u_v$$ are the unit vectors of h and v axes, respectively. As a brief refresher, $$\omega$$ (*angular frequency*) is a term that dictates at what time the amplitude resets, and $$k$$ is a term that dictates at which distance along z-axis the amplitude resets. Meanwhile, $$\phi_h$$ and $$\phi_v$$ are the phase terms. [Khan Academy](https://www.youtube.com/watch?v=9WZM68aVnGk&t=618s).
-[^2]: Built based on a comment from youtube user [Alan Cheville](https://www.youtube.com/channel/UCLZHlgLIALvNRzVEDuvgoyQ)
+[^2]: Thanks to youtube user [Alan Cheville](https://www.youtube.com/channel/UCLZHlgLIALvNRzVEDuvgoyQ).
 
 
 
