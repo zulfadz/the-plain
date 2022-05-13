@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Infinite collection of infinite sets, which do not overlap, which form the whole natural numbers"
+title: "Infinite collection of infinite sets, which do not overlap, which form natural numbers"
 comments: true
 description: "analysis"
 keywords: "math, analysis"
