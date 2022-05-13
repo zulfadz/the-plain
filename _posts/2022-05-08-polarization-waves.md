@@ -112,18 +112,18 @@ close(vid);
 
 ### Case 1: Linear polarization - one component.
 
-The simplest case is when the electrical field is just pointing in one axis, in which case either $$E_h$$ or $$E_v$$ to zero. One such case is shown in figure above, where $$\mathbf{E}$$ is pointing only in $$ \pm u_v$$.
+The simplest case is when the electrical field is just pointing in one axis, in which either $$E_h$$ or $$E_v$$ is zero. An example is shown in figure above, where $$\mathbf{E}$$ is pointing only in $$ \pm u_v$$.
 
 ### Case 2: Linear polarization - two components.
 
-Consider the case when $$ \lvert E_{h} \rvert = \lvert E_{v} \rvert =1 $$ and $$ \phi_v - \phi_h=0$$. In this case, the polarization will be a straight line along 45 $$^{\circ}$$.  
+Consider the case when $$ \lvert E_{h} \rvert = \lvert E_{v} \rvert =1 $$ and $$ \phi_v - \phi_h=0$$. The resulting polarization will be a straight line along 45 $$^{\circ}$$.  
 
 <img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/linear-45.gif" width="400"/>
 
 <img src="https://github.com/zulfadz/zulfadz.github.io/blob/master/pictures/%20idk0..gif?raw=true" width="400"/>
 
 
-Mirroring this observation is when $$\phi_v - \phi_h=\pi$$. In this case,  the polarization is a straight line along -45 $$^{\circ}$$.
+Mirroring this observation is when $$\phi_v - \phi_h=\pi$$, in which case the polarization becomes a straight line along -45 $$^{\circ}$$.
 
 <img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/linear-negative45.gif" width="400"/>
 
@@ -143,7 +143,7 @@ Circular polarization occurs when the polarization is making a circular movement
 
 ## Case 4: Elliptical polarization.
 
-The circular polarization is a specific case of elliptical polarization. In general, the amplitudes of the locus tracing the polarization do not have to be the same. When the phase terms are out of sync by other values, the resulting polarization will resemble an ellipse. For instance, when $$\phi_v - \phi_h =\pi/4$$ and $$ \lvert E_h \rvert = \lvert E_v \rvert =1$$, we get the following polarization:
+The circular polarization is just a specific case of elliptical polarization. In general, the amplitudes of the locus tracing the polarization do not have to be the same. When the phase terms are out of sync by other values, the resulting polarization will resemble an ellipse. For instance, when $$\phi_v - \phi_h =\pi/4$$ and $$ \lvert E_h \rvert = \lvert E_v \rvert =1$$, we get the following polarization:
 
 <img src="https://github.com/zulfadz/zulfadz.github.io/blob/master/pictures/%20idk0.25..gif?raw=true" width="400"/>
 
