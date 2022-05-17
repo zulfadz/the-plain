@@ -1,11 +1,11 @@
-
 ---
 layout: post
-title: "sup (A + B) = sup A + sup B"
+title: "The problem with authenticity"
 comments: true
-description: "analysis"
-keywords: "math, analysis"
+description: "values"
+keywords: "seth, godin"
 ---
+
 
 Let $$A$$ and $$B$$ be nonempty subsets of real numbers, each bounded above. The supremum of $$A$$ is sup $$A$$ and the supremum of $$B$$ is sup $$B$$. How do we show that the sup ($$A + B$$) = sup $$A$$ + sup $$B$$?
 
