@@ -11,7 +11,7 @@ Let $$A$$ and $$B$$ be nonempty subsets of real numbers, each bounded above. The
 
 Recall the lemma:
 
-> $$s$$ = sup $$A$$ if any only if for every $$\epsilon > 0$$, there exists $$a \in A$$ such that $$s - \epsilon < a$$
+> $$s$$ = sup $$A$$ if and only if for every $$\epsilon > 0$$, there exists $$a \in A$$ such that $$s - \epsilon < a$$
 
 
 Using the lemma, it suffices to show that every $$\epsilon > 0$$, there exist $$a \in A$$ and $$b \in B$$ such that sup $$A$$ + sup $$B - \epsilon < a + b.$$
