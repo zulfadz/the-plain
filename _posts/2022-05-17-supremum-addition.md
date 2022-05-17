@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "The problem with authenticity"
+title: "sup (A + B) = sup A + sup B"
 comments: true
-description: "values"
-keywords: "seth, godin"
+description: "analysis"
+keywords: "math, analysis"
 ---
 
 
