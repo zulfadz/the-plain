@@ -16,7 +16,7 @@ Recall the lemma:
 
 Using the lemma, it suffices to show that every $$\epsilon > 0$$, there exist $$a \in A$$ and $$b \in B$$ such that sup $$A$$ + sup $$B - \epsilon < a + b.$$
 
-Consider sup $$A +$$ sup $$B - \epsilon$$
+Consider sup $$A$$ $$+$$ sup $$B - \epsilon$$
 
 $$\implies$$ (sup $$A - \epsilon/2$$) $$+$$ (sup $$B - \epsilon/2$$)
 
