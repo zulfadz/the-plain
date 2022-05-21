@@ -21,14 +21,13 @@ Since $$A$$ is nonempty and bounded above, sup $$A$$ exists. Let $$ c = $$ sup $
 
 $$\implies$$ $$ a \leq$$ $$c$$ for all $$ a \in A$$ by the definition of supremum.
 
-$$\implies$$ By definition of supremum, $$b \geq c$$
-for all $$b \in B$$.
+$$\implies$$ $$b \geq c$$ for all $$b \in B$$ by the definition of supremum.
 
 Conversely, using the Cut property, it is possible to prove the Axiom of Completeness. That is, if $$\mathbf{R}$$ has the Cut Property, and let $$E$$ be nonempty set that is bounded above, then sup $$E$$ exists.
 
 Let $$B$$ be the set of upper bounds of $$E$$. $$B$$ is nonempty as $$E$$ is bounded above. Morever, let $$B^c = \mathbf{R} - B$$ be the set of real numbers which are not in $$B$$. It follows that $$B \cup B^c = \mathbf{R}$$. By contradiction, suppose that $$E$$ has no supremum.
 
-$$\implies$$ $$B \cap E = \emptyset $$, i.e., upper bound of $$E$$ is not an element of $$E$$, because otherwise, there exists sup $$E$$.
+$$\implies$$ $$B \cap E = \emptyset $$ (To see this, show that if $$a$$ is an upper bound of $$A$$, and $$ a \in A$$, then $$a =$$ sup $$ A$$).
 
 $$\implies$$ $$E \subseteq B^c$$. Thus, $$B^c$$ is a nonempty set. Moreover, $$ a < b$$ for all $$ a \in B^c$$ and $$b \in B$$.
 
