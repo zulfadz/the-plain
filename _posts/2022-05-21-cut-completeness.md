@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Axiom of Completeness is equivalent to the Cut Property in R"
+title: "The axiom of completeness is equivalent to the cut property in R"
 comments: true
 description: "analysis"
 keywords: "math, analysis"
@@ -35,7 +35,7 @@ $$ \implies$$ By the Cut Property, there exists $$c$$ such that $$x \leq c$$ whe
 
 $$ \implies$$ $$c$$ is not an element of $$B$$ because otherwise it means that $$c$$ is the smallest element of $$B$$, i.e., sup $$E$$ which we have assumed to not exist. 
 
-$$\implies$$ It follows that $$c \in B^c$$. But $$c$$ is an upper bound $$B^c$$, and because $$E \subseteq B^c$$, $$c$$ is also an upper bound $$E$$. This implies that $$c$$ have to be in $$B$$, which is a contradiction.
+$$\implies$$ It follows that $$c \in B^c$$. But $$c$$ is an upper bound $$B^c$$, and because $$E \subseteq B^c$$, $$c$$ is also an upper bound $$E$$. This implies that $$c$$ has to be in $$B$$, which is a contradiction.
 
 Footnote:
 
