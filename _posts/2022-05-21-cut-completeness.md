@@ -30,7 +30,7 @@ Let $$B$$ be the set of upper bounds of $$E$$. $$B$$ is nonempty as $$E$$ is bou
 
 By contradiction, suppose that $$E$$ has no supremum.
 
-$$\implies$$ $$B \cap E = \empty $$, i.e., upper bound of $$E$$ is not an element of $$E$$, because otherwise, there exists sup $$E$$.
+$$\implies$$ $$B \cap E = \emptyset $$, i.e., upper bound of $$E$$ is not an element of $$E$$, because otherwise, there exists sup $$E$$.
 
 $$\implies$$ $$E \subseteq B^c$$. Thus, $$B^c$$ is a nonempty set. Moreover, $$ a < b$$ for all $$ a \in B^c$$ and $$b \in B$$.
 
