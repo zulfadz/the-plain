@@ -21,20 +21,22 @@ Since $$A$$ is nonempty and bounded above, sup $$A$$ exists. Let $$ c = $$ sup $
 
 $$\implies$$ $$ a \leq$$ $$c$$ for all $$ a \in A$$ by the definition of supremum.
 
-$$\implies$$ By definition of supremum, $$b \geq$$ $$c$$
+$$\implies$$ By definition of supremum, $$b \geq c$$
 for all $$b \in B$$.
 
 Conversely, using the Cut property, it is possible to prove the Axiom of Completeness. That is, if $$\mathbf{R}$$ has the Cut Property, and let $$E$$ be nonempty set that is bounded above, then sup $$E$$ exists.
-Let $$B$$ be the set of upper bounds of $$E$$. Morever, let $$B^c = \mathbf{R} - B$$ be the set of real numbers which are not in $$B$$. It follows that
-$$B \cup B^c = \mathbf{R}$$. By contradiction, suppose that $$E$$ has no supremum; that is, it does not have the least upper bound.
 
-$$\implies$$ $$B \cap E = \empty$$, i.e., upper bound of $$E$$ is not an element of $$E$$ . Otherwise, there exists sup $$E$$.
+Let $$B$$ be the set of upper bounds of $$E$$. $$B$$ is nonempty as $$E$$ is bounded above. Morever, let $$B^c = \mathbf{R} - B$$ be the set of real numbers which are not in $$B$$. It follows that $$B \cup B^c = \mathbf{R}$$. 
 
-$$\implies$$ $$E \subseteq B^c$$. Thus, $$B^c$$ is a nonempty set. $$B$$ is also nonempty as $$E$$ is bounded above. Moreover, $$ a < b$$ for all $$ a \in B^c$$ and $$b \in B$$.
+By contradiction, suppose that $$E$$ has no supremum.
+
+$$\implies$$ $$B \cap E = \empty $$, i.e., upper bound of $$E$$ is not an element of $$E$$, because otherwise, there exists sup $$E$$.
+
+$$\implies$$ $$E \subseteq B^c$$. Thus, $$B^c$$ is a nonempty set. Moreover, $$ a < b$$ for all $$ a \in B^c$$ and $$b \in B$$.
 
 $$ \implies$$ Thus, by the Cut Property, there exists $$c$$ such that $$x \leq c$$ whenever $$ x \in B^c$$ and $$ x \geq c$$ whenever $$ x \in B$$.
 
-$$ \implies$$ $$c$$ is not an element of $$B$$ because otherwise it means that $$c$ is the smallest element of $$B$$, i.e., the least upper bound of $$E$$ which we have assumed to be not in existence. 
+$$ \implies$$ $$c$$ is not an element of $$B$$ because otherwise it means that $$c$$ is the smallest element of $$B$$, i.e., the least upper bound of $$E$$ which we have assumed to be not in existence. 
 
 $$\implies$$ It follows that $$c \in B^c$$. But $$c$$ is an upper bound $$B^c$$, and because $$E \substeq B^c$$, $$c$$ is also an upper bound $$E$$. This implies that $$c \in B$$, which is a contradiction.
 
