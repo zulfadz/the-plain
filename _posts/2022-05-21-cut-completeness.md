@@ -26,9 +26,7 @@ for all $$b \in B$$.
 
 Conversely, using the Cut property, it is possible to prove the Axiom of Completeness. That is, if $$\mathbf{R}$$ has the Cut Property, and let $$E$$ be nonempty set that is bounded above, then sup $$E$$ exists.
 
-Let $$B$$ be the set of upper bounds of $$E$$. $$B$$ is nonempty as $$E$$ is bounded above. Morever, let $$B^c = \mathbf{R} - B$$ be the set of real numbers which are not in $$B$$. It follows that $$B \cup B^c = \mathbf{R}$$. 
-
-By contradiction, suppose that $$E$$ has no supremum.
+Let $$B$$ be the set of upper bounds of $$E$$. $$B$$ is nonempty as $$E$$ is bounded above. Morever, let $$B^c = \mathbf{R} - B$$ be the set of real numbers which are not in $$B$$. It follows that $$B \cup B^c = \mathbf{R}$$. By contradiction, suppose that $$E$$ has no supremum.
 
 $$\implies$$ $$B \cap E = \emptyset $$, i.e., upper bound of $$E$$ is not an element of $$E$$, because otherwise, there exists sup $$E$$.
 
