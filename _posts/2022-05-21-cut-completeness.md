@@ -21,7 +21,7 @@ Since $$A$$ is nonempty and bounded above, sup $$A$$ exists. Let $$ c = $$ sup $
 
 $$\implies$$ $$ a \leq$$ $$c$$ for all $$ a \in A$$ by the definition of supremum.
 
-$$\implies$$ Given arbitrary $$b \in B$$, $$b > a$$ for all $$ a \ in A$$. By definition of supremum, $$b \geq$$ $$c$$
+$$\implies$$ By definition of supremum, $$b \geq$$ $$c$$
 for all $$b \in B$$.
 
 Conversely, using the Cut property, it is possible to prove the Axiom of Completeness. That is, if $$\mathbf{R}$$ has the Cut Property, and let $$E$$ be nonempty set that is bounded above, then sup $$E$$ exists.
@@ -30,12 +30,13 @@ $$B \cup B^c = \mathbf{R}$$. By contradiction, suppose that $$E$$ has no supremu
 
 $$\implies$$ $$B \cap E = \empty$$, i.e., upper bound of $$E$$ is not an element of $$E$$ . Otherwise, there exists sup $$E$$.
 
-$$\implies$$ $$E \subseteq B^c$$. Thus, $$B^c$$ is a nonempty set.
+$$\implies$$ $$E \subseteq B^c$$. Thus, $$B^c$$ is a nonempty set. $$B$$ is also nonempty as $$E$$ is bounded above. Moreover, $$ a < b$$ for all $$ a \in B^c$$ and $$b \in B$$.
 
 $$ \implies$$ Thus, by the Cut Property, there exists $$c$$ such that $$x \leq c$$ whenever $$ x \in B^c$$ and $$ x \geq c$$ whenever $$ x \in B$$.
 
 $$ \implies$$ $$c$$ is not an element of $$B$$ because otherwise it means that $$c$ is the smallest element of $$B$$, i.e., the least upper bound of $$E$$ which we have assumed to be not in existence. 
-It follows that $$c \in B^c$$. But $$c$$ is an upper bound $$B^c$$, and because $$E \substeq B^c$$, $$c$$ is also an upper bound $$E$$. This implies that $$c \in B$$, which is a contradiction.
+
+$$\implies$$ It follows that $$c \in B^c$$. But $$c$$ is an upper bound $$B^c$$, and because $$E \substeq B^c$$, $$c$$ is also an upper bound $$E$$. This implies that $$c \in B$$, which is a contradiction.
 
 Footnote:
 
