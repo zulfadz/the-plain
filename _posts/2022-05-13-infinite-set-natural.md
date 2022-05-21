@@ -24,7 +24,7 @@ $$\begin{array}{lccccc}
     \vdots & & & & &
   \end{array}$$
 
-Therefore, each row represents a set containing an infinite number of elements, and there are infinite number of such rows. No two rows share the same elements. Moreover, the whole "square" forms $$\mathbf{N}$$.
+Therefore, each row represents a set containing an infinite number of elements, and there is an infinite number of such rows. No two rows share the same elements. Moreover, the whole "square" forms $$\mathbf{N}$$.
 
 Footnote:
 
