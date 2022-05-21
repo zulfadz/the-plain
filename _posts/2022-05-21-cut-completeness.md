@@ -27,7 +27,7 @@ Conversely, using the Cut property, it is possible to prove the Axiom of Complet
 
 Let $$B$$ be the set of upper bounds of $$E$$. $$B$$ is nonempty as $$E$$ is bounded above. Morever, let $$B^c = \mathbf{R} - B$$ be the set of real numbers which are not in $$B$$. It follows that $$B \cup B^c = \mathbf{R}$$. By contradiction, suppose that $$E$$ has no supremum.
 
-$$\implies$$ $$B \cap E = \emptyset $$ (To see this, show that if $$a$$ is an upper bound of $$A$$, and $$ a \in A$$, then $$a =$$ sup $$ A$$).
+$$\implies$$ $$B \cap E = \emptyset $$ (To see this, show that if $$e$$ is an upper bound of $$E$$, and $$ e \in E$$, then $$e =$$ sup $$ E$$).
 
 $$\implies$$ $$E \subseteq B^c$$. Thus, $$B^c$$ is a nonempty set. Moreover, $$ a < b$$ for all $$ a \in B^c$$ and $$b \in B$$.
 
