@@ -34,9 +34,9 @@ $$\implies$$ $$E \subseteq B^c$$. Thus, $$B^c$$ is a nonempty set. Moreover, $$ 
 
 $$ \implies$$ Thus, by the Cut Property, there exists $$c$$ such that $$x \leq c$$ whenever $$ x \in B^c$$ and $$ x \geq c$$ whenever $$ x \in B$$.
 
-$$ \implies$$ $$c$$ is not an element of $$B$$ because otherwise it means that $$c$$ is the smallest element of $$B$$, i.e., the least upper bound of $$E$$ which we have assumed to be not in existence. 
+$$ \implies$$ $$c$$ is not an element of $$B$$ because otherwise it means that $$c$$ is the smallest element of $$B$$, i.e., sup $$E$$ which we have assumed to be not in existence. 
 
-$$\implies$$ It follows that $$c \in B^c$$. But $$c$$ is an upper bound $$B^c$$, and because $$E \substeq B^c$$, $$c$$ is also an upper bound $$E$$. This implies that $$c \in B$$, which is a contradiction.
+$$\implies$$ It follows that $$c \in B^c$$. But $$c$$ is an upper bound $$B^c$$, and because $$E \subseteq B^c$$, $$c$$ is also an upper bound $$E$$. This implies that $$c \in B$$, which is a contradiction.
 
 Footnote:
 
