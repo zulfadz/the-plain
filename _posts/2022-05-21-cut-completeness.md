@@ -31,7 +31,7 @@ $$\implies$$ $$B \cap E = \emptyset $$ (To see this, show that if $$e$$ is an up
 
 $$\implies$$ $$E \subseteq B^c$$. Thus, $$B^c$$ is a nonempty set. Moreover, $$ a < b$$ for all $$ a \in B^c$$ and $$b \in B$$.
 
-$$ \implies$$ Thus, by the Cut Property, there exists $$c$$ such that $$x \leq c$$ whenever $$ x \in B^c$$ and $$ x \geq c$$ whenever $$ x \in B$$.
+$$ \implies$$ By the Cut Property, there exists $$c$$ such that $$x \leq c$$ whenever $$ x \in B^c$$ and $$ x \geq c$$ whenever $$ x \in B$$.
 
 $$ \implies$$ $$c$$ is not an element of $$B$$ because otherwise it means that $$c$$ is the smallest element of $$B$$, i.e., sup $$E$$ which we have assumed to be not in existence. 
 
