@@ -7,8 +7,7 @@ keywords: "physics, numerical methods"
 ---
 
 
-In the previous post [Numerical method 1: Finite difference](https://zul.rocks/finite-difference), I showed how finite-difference method is often useful to approximate derivatives.
-There, the formula used for second derivatives were based on three-point operators, namely:
+In the previous post [Numerical method 1: Finite difference](https://zul.rocks/finite-difference), I showed how finite-difference method is useful to approximate derivatives. There, the formula used for second derivatives were based on three-point operators, namely:
 
 $$\begin{equation}
 
@@ -35,7 +34,6 @@ f(x)=\dfrac{1}{\sqrt{2 \pi a}}e^{-\dfrac{(x-x_0)^2}{2a}}.
 which is visually illustrated in figure below on domain $$[0,10]$$, and Gaussian exponent $$a$$ of 0.25:
 
 ```python
-
 # initiate the Gaussian function
 
 #maximum and minimum domain
@@ -62,9 +60,6 @@ plt.title('Gaussian function')
 plt.xlabel('x')
 plt.xlim((0, xmax))
 plt.show()
-
-
-
 ```
 <img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/gauss0.png" width="400"/>
 
@@ -92,9 +87,6 @@ ana=1./sqrt(2*pi*a)*((x-x0)**2/a**2 -1/a)*np.exp(-1/(2*a)*(x-x0)**2)
 # Exclude boundaries
 ana[0]=0.
 ana[n-1]=0.
-
-
-
 
 # Plotting 
 plt.figure(figsize = (12, 8))
