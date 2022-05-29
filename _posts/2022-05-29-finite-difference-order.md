@@ -149,7 +149,7 @@ The error term drops from 0.008 to 0.0002, which is equivalent to 97% decline.
 
 Footnote
 
-[^1]: Credit to [Computational Seismology: A Practical Introduction](https://www.amazon.com/Computational-Seismology-Introduction-Heiner-Igel/dp/0198717415), [Berkeley Python Numerical Methods](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html) and [Heiner Igel's course](https://www.coursera.org/learn/computers-waves-simulations) from which I learned and refer to for materials on this topic.
+[^1]: Credit to [Computational Seismology: A Practical Introduction](https://www.amazon.com/Computational-Seismology-Introduction-Heiner-Igel/dp/0198717415), [Berkeley Python Numerical Methods](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html) and [Heiner Igel's course](https://www.coursera.org/learn/computers-waves-simulations) from which I learn and refer to for materials on this topic.
 
 
 
