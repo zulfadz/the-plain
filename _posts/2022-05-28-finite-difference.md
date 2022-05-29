@@ -13,7 +13,7 @@ In this method, the phenomenon of interest is discretized using evenly-spaced gr
 
 <img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/fd0.png" width="400"/>
 
-The first and second derivatives of the function can be approximated at grid point $$x_{i}$$, using these formulas respectively:
+The first and second derivatives of the function can be approximated at each grid using these formulas respectively:
 
 $$\begin{equation}
 
@@ -23,8 +23,9 @@ $$\begin{equation}
 \end{equation}$$
 
 
+###Application to wave simulation### 
 
-**Example**: Consider a sinusoidal wave
+Consider a sinusoidal wave
 
 $$\begin{equation}
 
@@ -41,7 +42,7 @@ k = \dfrac{2\pi}{\lambda} = \dfrac{2\pi}{2\pi} = 1
 
 \end{equation}$$
 
-where $$k$$ is the wavenumber, which is equal to 1 in this case. We know that the derivative of $$\sin(kx)$$ is $$k\cos(kx)$$. The code below computes the derivative numerically for interval $$[0, 2 \pi]$$ and grid increment of $$0.2$$:
+where $$k$$ is the wavenumber, which is equal to 1 in this case. We know that the derivative of $$\sin(kx)$$ is $$k\cos(kx)$$. The code below[^1] computes the derivative numerically for interval $$[0, 2 \pi]$$ and a grid increment of $$0.2$$:
 
 ```python
 import numpy as np
@@ -94,8 +95,8 @@ print(rms)
 
 > RMSE: 0.176221552194
 
-The figure above shows that the finite-difference approximation is able to simulate the exact solution pretty well. The RMSE is 0.18. 
-In fact, it can be made more precise by decreasing grid increment $$dx$$. The code below calculates and plot the RMSE given different values of $$dx$$:
+The figure above shows that the finite-difference approximation simulates the exact solution pretty well. The RMSE is 0.18. 
+In fact, it can be made more precise by decreasing grid increment $$dx$$. The code below plots the RMSE given different values of $$dx$$:
 
 ```python
 
@@ -153,6 +154,10 @@ plt.show()
 <img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/fd2.png" width="400"/>
 
 As expected, as the grid increment $$dx$$ (i.e., the step size) becomes smaller, the the approximation becomes more precise.
+
+Footnote
+
+[^1]: Code in Python 3.
 
 
 
