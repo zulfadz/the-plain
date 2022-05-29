@@ -7,9 +7,9 @@ keywords: "physics, numerical methods"
 ---
 
 
-Many physical phenomena can be described by partial differential equations, but the challenge is that these partial derivatives generally cannot be solved analytically. A numerical method called finite-difference method is often used to circumvent the need for analytical solution. In this method, the phenomenon of interest is discretized using evenly-spaced grid points.
+Many physical phenomena can be described by partial differential equations. But these partial derivatives generally cannot be solved analytically. A numerical method called finite-difference method is often used to circumvent the need for analytical solution. 
 
-Divide the interval $$[a,b]$$ into $$n$$ evenly-spaced subintervals of length $$dx$$.
+In this method, the phenomenon of interest is discretized using evenly-spaced grid points. Divide the interval $$[a,b]$$ into $$n$$ evenly-spaced subintervals of length $$dx$$.
 
 <img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/fd0.png" width="400"/>
 
@@ -24,7 +24,7 @@ $$\begin{equation}
 
 
 
-For example, consider a sinusoidal wave
+**Example**: Consider a sinusoidal wave
 
 $$\begin{equation}
 
@@ -37,11 +37,11 @@ with wavelength of $$2 \pi$$,
 $$\begin{equation}
 
 \lambda = 2\pi \\
-k = \dfrac{2pi}{\lambda} = \dfrac{2pi}{2pi} = 1
+k = \dfrac{2\pi}{\lambda} = \dfrac{2\pi}{2\pi} = 1
 
 \end{equation}$$
 
-where $$k$$ is the wavenumber. We know that the derivative of $$\sin(kx)$$ is $$k\cos(kx)$$. The code below computes the derivative numerically for interval $$[0, 2 \pi]$$ and grid increment of $0.2$:
+where $$k$$ is the wavenumber, which is equal to 1 in this case. We know that the derivative of $$\sin(kx)$$ is $$k\cos(kx)$$. The code below computes the derivative numerically for interval $$[0, 2 \pi]$$ and grid increment of $$0.2$$:
 
 ```python
 import numpy as np
@@ -92,10 +92,10 @@ print(rms)
 ```
 <img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/fd1.png" width="400"/>
 
-> 0.176221552194
+> RMSE: 0.176221552194
 
-The figure above shows that the finite-difference approximation is able to simulate the exact solution pretty well. The root mean squared error is 0.18. 
-In fact, it can be made more precise by decreasing grid increment $$dx$$. The code below calculates the root mean squared error given decreasing values of $$dx$$:
+The figure above shows that the finite-difference approximation is able to simulate the exact solution pretty well. The RMSE is 0.18. 
+In fact, it can be made more precise by decreasing grid increment $$dx$$. The code below calculates and plot the RMSE given different values of $$dx$$:
 
 ```python
 
@@ -152,7 +152,7 @@ plt.show()
 
 <img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/fd2.png" width="400"/>
 
-As expected, the smaller is the grid increment $$dx$$ (i.e., the step size), the more precise is the approximation.
+As expected, as the grid increment $$dx$$ (i.e., the step size) becomes smaller, the the approximation becomes more precise.
 
 
 
