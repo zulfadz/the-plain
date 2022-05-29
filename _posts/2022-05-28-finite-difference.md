@@ -157,7 +157,7 @@ As expected, smaller grid increment $$dx$$ (i.e., the step size) results in more
 
 Footnote
 
-[^1]: Code in Python 3.
+[^1]: Coded in Python 3.
 [^2]: Or in other words, increasing the number of grids per wavelength.
 
 
