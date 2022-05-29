@@ -7,7 +7,7 @@ keywords: "physics, numerical methods"
 ---
 
 
-Many physical phenomena can be described by partial differential equations. But these partial derivatives generally cannot be solved analytically. A numerical method called finite-difference method is often used to circumvent the need for analytical solution. 
+Many physical phenomena can be described by partial differential equations. But these derivatives generally cannot be solved analytically. A numerical method called finite-difference method is often used to circumvent the need for analytical solution. 
 
 In this method, the phenomenon of interest is discretized using evenly-spaced grid points. Divide the interval $$[a,b]$$ into $$n$$ evenly-spaced subintervals of length $$dx$$.
 
@@ -96,7 +96,7 @@ print(rms)
 > RMSE: 0.176221552194
 
 The figure above shows that the finite-difference approximation is able to simulate the exact solution pretty well. The RMSE is 0.18. 
-In fact, it can be made more precise by decreasing the grid increment $$dx$$.[^2] The code below plots[^1] the RMSE given different values of $$dx$$:
+In fact, it can be made more precise by decreasing the grid increment $$dx$$.[^2] The code below plots the RMSE given different values of $$dx$$:
 
 ```python
 
