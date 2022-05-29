@@ -13,7 +13,7 @@ of interest is discretized using evenly-spaced grid points.
 
 In this method, the derivatives are approximated using finite-difference formulas. Divide the interval $$[a,b]$$ into $$n$$ evenly-spaced subintervals of length $dx$.
 
-<img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/linear-45.gif" width="400"/>
+<img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/fd0.png" width="400"/>
 
 The first and second derivatives of the function can be approximated at grid point $$x_{i}$$, using these formulas respectively:
 
@@ -92,6 +92,7 @@ plt.show()
 print(rms)
 
 ```
+<img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/fd1.png" width="400"/>
 
 The figure above shows that finite-difference approximation is able to simulate the exact solution pretty well. The root mean squared error is 0.18. 
 In fact, the estimation error is expected to decrease with decreasing grid increment $$dx$$. The code below calculates the error at decreasing values of $$dx$$:
@@ -149,12 +150,7 @@ plt.show()
 
 ```
 
-
-<img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/linear-45.gif" width="400"/>
-
-
-
-
+<img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/fd2.png" width="400"/>
 
 
 
