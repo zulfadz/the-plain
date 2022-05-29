@@ -13,7 +13,7 @@ In this method, the phenomenon of interest is discretized using evenly-spaced gr
 
 <img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/fd0.png" width="400"/>
 
-The first and second derivatives of the function can be approximated at each grid using these formulas respectively:
+The first and second derivatives of the function can be approximated at each grid using these formulas respectively:[^1]
 
 $$\begin{equation}
 
@@ -42,7 +42,7 @@ k = \dfrac{2\pi}{\lambda} = \dfrac{2\pi}{2\pi} = 1
 
 \end{equation}$$
 
-where $$k$$ is the wavenumber, which is equal to 1 in this case. We know that the derivative of $$\sin(kx)$$ is $$k\cos(kx)$$. The code below[^1] computes the derivative numerically for interval $$[0, 2 \pi]$$ and a grid increment of $$0.2$$:
+where $$k$$ is the wavenumber, which is equal to 1 in this case. We know that the derivative of $$\sin(kx)$$ is $$k\cos(kx)$$. The code below[^2] computes the derivative numerically for interval $$[0, 2 \pi]$$ and a grid increment of $$0.2$$:
 
 ```python
 import numpy as np
@@ -96,7 +96,7 @@ print(rms)
 > RMSE: 0.176221552194
 
 The figure above shows that the finite-difference approximation is able to simulate the exact solution pretty well. The RMSE is 0.18. 
-In fact, it can be made more precise by decreasing the grid increment $$dx$$.[^2] The code below plots the RMSE given different values of $$dx$$:
+In fact, it can be made more precise by decreasing the grid increment $$dx$$.[^3] The code below plots the RMSE given different values of $$dx$$:
 
 ```python
 
@@ -157,8 +157,9 @@ As expected, smaller grid increment $$dx$$ (i.e., the step size) results in more
 
 Footnote
 
-[^1]: Coded in Python 3.
-[^2]: Or in other words, increasing the number of grids per wavelength.
+[^1]: These formulas are called central difference formulas. Other options are forward difference and backward difference.
+[^2]: Coded in Python 3.
+[^3]: Or in other words, increasing the number of grids per wavelength.
 
 
 
