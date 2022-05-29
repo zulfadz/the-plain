@@ -157,7 +157,7 @@ The error term declined from 0.008 to 0.0002, which is equivalent to 97% decline
 
 Footnote
 
-[^1]: Credit to [Computational Seismology: A Practical Introduction](https://www.amazon.com/Computational-Seismology-Introduction-Heiner-Igel/dp/0198717415), and [Heiner Igel's course](https://www.coursera.org/learn/computers-waves-simulations) from which I learned and refer to for materials.
+[^1]: Credit to [Computational Seismology: A Practical Introduction](https://www.amazon.com/Computational-Seismology-Introduction-Heiner-Igel/dp/0198717415), and [Heiner Igel's course](https://www.coursera.org/learn/computers-waves-simulations) from which I learned and refer to for materials on this topic.
 
 
 
