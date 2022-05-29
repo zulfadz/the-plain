@@ -95,8 +95,8 @@ print(rms)
 
 > RMSE: 0.176221552194
 
-The figure above shows that the finite-difference approximation simulates the exact solution pretty well. The RMSE is 0.18. 
-In fact, it can be made more precise by decreasing grid increment $$dx$$. The code below plots the RMSE given different values of $$dx$$:
+The figure above shows that the finite-difference approximation is able to simulate the exact solution pretty well. The RMSE is 0.18. 
+In fact, it can be made more precise by decreasing the grid increment $$dx$$. The code below plots[^1] the RMSE given different values of $$dx$$:
 
 ```python
 
@@ -153,7 +153,7 @@ plt.show()
 
 <img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/fd2.png" width="400"/>
 
-As expected, as the grid increment $$dx$$ (i.e., the step size) becomes smaller, the the approximation becomes more precise.
+As expected, smaller grid increment $$dx$$ (i.e., the step size) results in more precise approximation.
 
 Footnote
 
