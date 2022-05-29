@@ -23,7 +23,7 @@ $$\begin{equation}
 \end{equation}$$
 
 
-###Application to wave simulation### 
+###Application to wave simulation
 
 Consider a sinusoidal wave
 
