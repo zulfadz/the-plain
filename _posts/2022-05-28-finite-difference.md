@@ -74,7 +74,7 @@ for i in range (1, n-1):
 analyt= k * np.cos(k*x)   
 # Exclude boundaries
 analyt[0]=0.
-#analyt[n-1]=0.
+analyt[n-1]=0.
 
 # Error (rms) 
 rms = np.sqrt(np.mean((numeric-analyt)**2))
