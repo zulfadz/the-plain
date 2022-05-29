@@ -96,11 +96,11 @@ print(rms)
 > RMSE: 0.176221552194
 
 The figure above shows that the finite-difference approximation is able to simulate the exact solution pretty well. The RMSE is 0.18. 
-In fact, it can be made more precise by decreasing the grid increment $$dx$$. The code below plots[^1] the RMSE given different values of $$dx$$:
+In fact, it can be made more precise by decreasing the grid increment $$dx$$.[^2] The code below plots[^1] the RMSE given different values of $$dx$$:
 
 ```python
 
-# define grid increment
+# define initial grid increment
 dx = 1
 # define number of iterations to perform
 iterations = 10 
@@ -110,9 +110,9 @@ dx_size = []
 rmse = [] 
 
 for j in range(iterations):
-    # halve the step size
+    # halve the grid increment
     dx /= 2 
-    # store this step size
+    # store this grid increment
     dx_size.append(dx) 
     # compute new grid
     x = np.arange(0, 2 * np.pi, dx) 
@@ -158,6 +158,7 @@ As expected, smaller grid increment $$dx$$ (i.e., the step size) results in more
 Footnote
 
 [^1]: Code in Python 3.
+[^2]: Or in other words, increasing the number of grids per wavelength.
 
 
 
