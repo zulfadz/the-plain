@@ -43,7 +43,7 @@ k = \dfrac{2pi}{\lambda} = \dfrac{2pi}{2pi} = 1
 
 where $$k$$ is the wavenumber. We know that the derivative of $$\sin(kx)$$ is $$k\cos(kx)$$. The code below computes the derivative numerically for interval $$[0, 2 \pi]$$ and grid increment of $0.2$:
 
-```Python
+```python
 import numpy as np
 from math import *
 import matplotlib.pyplot as plt
@@ -97,7 +97,7 @@ print(rms)
 The figure above shows that the finite-difference approximation is able to simulate the exact solution pretty well. The root mean squared error is 0.18. 
 In fact, it can be made more precise by decreasing grid increment $$dx$$. The code below calculates the root mean squared error given decreasing values of $$dx$$:
 
-```Python
+```python
 
 # define grid increment
 dx = 1
