@@ -145,7 +145,7 @@ print(rms)
 ```
 > 0.000217774088003
 
-The error term declines from 0.008 to 0.0002, which is equivalent to 97% decline.
+The error term drops from 0.008 to 0.0002, which is equivalent to 97% decline.
 
 Footnote
 
