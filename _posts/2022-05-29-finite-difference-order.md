@@ -16,7 +16,7 @@ f^{\prime\prime}(x)= \dfrac{f(x+dx)-2 f(x)+f(x-dx)}{dx^2}.
 
 \end{equation}$$
 
-In this post, I illustrate that using a higher-order finite-difference operators can yield even more precise approximation. The formula for five-point operators is:
+In this post, I illustrate that using a higher-order finite-difference operators can yield an even more precise approximation. The formula for five-point operators is:
 
 $$\begin{equation}
 f^{\prime\prime}(x)=\dfrac{-\dfrac{1}{12}f(x-2dx)+\dfrac{4}{3}f(x-dx)-\dfrac{5}{2}f(x) +\dfrac{4}{3}f(x+dx)-\dfrac{1}{12}f(x+2dx)}{dx^2}.
@@ -32,7 +32,7 @@ $$\begin{equation}
 f(x)=\dfrac{1}{\sqrt{2 \pi a}}e^{-\dfrac{(x-x_0)^2}{2a}}.
 \end{equation}$$
 
-which is visually illustrated in figure below on domain $$[0,10]$$, and exponent $a_0$ of 0.25:
+which is visually illustrated in figure below on domain $$[0,10]$$, and Gaussian exponent $$a$$ of 0.25:
 
 ```python
 
@@ -115,7 +115,7 @@ print(rms)
 ```
 > 0.00818613271699
 
-Compare this with approximation using five-point operators:
+Compare this finding with the approximation using five-point operators:
 
 ```python
 # five-point operators
@@ -157,7 +157,7 @@ The error term declined from 0.008 to 0.0002, which is equivalent to 97% decline
 
 Footnote
 
-[^1]: Thanks to this book [Computational Seismology: A Practical Introduction](https://www.amazon.com/Computational-Seismology-Introduction-Heiner-Igel/dp/0198717415), for the materials.
+[^1]: Credit to [Computational Seismology: A Practical Introduction](https://www.amazon.com/Computational-Seismology-Introduction-Heiner-Igel/dp/0198717415), and [Heiner Igel's course](https://www.coursera.org/learn/computers-waves-simulations) from which I learned and refer to for materials.
 
 
 
