@@ -7,7 +7,7 @@ keywords: "physics, numerical methods"
 ---
 
 
-In the previous post [Numerical method 1: Finite difference](https://zul.rocks/finite-difference), I showed how finite-difference method is useful to approximate derivatives. There, the formula used for second derivatives were based on three-point operators, namely:
+In the previous post [Numerical method 1: Finite difference](https://zul.rocks/finite-difference), I showed how finite-difference method is useful to approximate derivatives. There, the formula used for second derivatives is based on three-point operators, namely:
 
 $$\begin{equation}
 
@@ -15,13 +15,13 @@ f^{\prime\prime}(x)= \dfrac{f(x+dx)-2 f(x)+f(x-dx)}{dx^2}.
 
 \end{equation}$$
 
-In this post, I illustrate that using a higher-order finite-difference operators can yield an even more precise approximation. The formula for five-point operators is:
+In this post, I illustrate that using higher-order finite-difference operators can yield an even more precise approximation. The formula for five-point operators is:
 
 $$\begin{equation}
 f^{\prime\prime}(x)=\dfrac{-\dfrac{1}{12}f(x-2dx)+\dfrac{4}{3}f(x-dx)-\dfrac{5}{2}f(x) +\dfrac{4}{3}f(x+dx)-\dfrac{1}{12}f(x+2dx)}{dx^2}.
 \end{equation}$$
 
-Assume for now that these formulas are valid. The derivation of these formulas are a subject of future posts.
+Assume for now that these formulas are valid. Their derivations are a subject for future posts.
 
 ### Application to Gaussian function[^1]
 
@@ -31,7 +31,7 @@ $$\begin{equation}
 f(x)=\dfrac{1}{\sqrt{2 \pi a}}e^{-\dfrac{(x-x_0)^2}{2a}}.
 \end{equation}$$
 
-which is visually illustrated in figure below on domain $$[0,10]$$, and Gaussian exponent $$a$$ of 0.25:
+which is visually illustrated in figure below on domain $$[0,10]$$ and Gaussian exponent $$a$$ of 0.25:
 
 ```python
 # initiate the Gaussian function
@@ -69,7 +69,7 @@ $$\begin{equation}
 f^{\prime\prime}(x)= \dfrac{1}{\sqrt{2\pi a}} ( \dfrac{(x-x_0)^2}{a^2}- \dfrac{1}{a} ) \ e^{-\dfrac{(x-x_0)^2}{2a}}
 \end{equation}$$
 
-is compared against the three-point operators below:
+is compared against the three-point operators as follows:
 
 ```python
 # three-point operators
@@ -107,7 +107,7 @@ print(rms)
 ```
 > 0.00818613271699
 
-Compare this finding with the approximation using five-point operators:
+Compare this error term with that obtained from the approximation using five-point operators:
 
 ```python
 # five-point operators
@@ -145,7 +145,7 @@ print(rms)
 ```
 > 0.000217774088003
 
-The error term declined from 0.008 to 0.0002, which is equivalent to 97% decline.
+The error term declines from 0.008 to 0.0002, which is equivalent to 97% decline.
 
 Footnote
 
