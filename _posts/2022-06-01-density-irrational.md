@@ -17,9 +17,9 @@ This is a well-known and proven theorem in analysis. What's interesting -- and I
 
 *Proof*
 
-We only need to know that $$\sqrt(2)$$ is irrational and the original theorem above. Take real numbers $$a- \sqrt(2)$$ and $$b - \sqrt(2)$$.
-By the original theorem, there exists a rational number $$r$$ satisfying $$a- \sqrt(2)$$ < r< b - \sqrt(2)$$.
-By rearranging the inequality, $$a < r + \sqrt(2) < b$$. We are done.
+We only need to know that $$\sqrt{2}$$ is irrational. Take real numbers $$a- \sqrt{2}$$ and $$b - \sqrt{2}$$.
+By the original theorem, there exists a rational number $$r$$ satisfying $$a- \sqrt{2} < r< b - \sqrt{2}$$.
+Rearranging the inequality, $$a < r + \sqrt{2} < b$$. We are done.
 
 
 Footnote:
