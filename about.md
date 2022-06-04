@@ -3,9 +3,11 @@ layout: page
 title: About
 ---
 
-## 
+## Who
 
-My name is Zul. I'm from KL, Malaysia and I like to learn more about the universe. 
+My name is Zul. I'm from KL, Malaysia. 
+
+## What
 
 Currently, I'm focusing on solving all the problems from abbott's understanding analysis. See my [solutions](https://zulfadz.github.io/abbott-solution/) and [notes](https://zulfadz.github.io/abbott/).
 
@@ -21,6 +23,8 @@ I am also working on other projects. Notes and solutions will be posted as soon 
 
 + aops' counting and probability. <span style="color:gray">(notes)(solutions)</span>
 
-The only way to mastery is through small daily improvements. This is why reviewing and journaling each day is very important. You can read my [journal](https://zul.rocks/journal/) here.
+## Personality
+
+I am a certified INFP, I tend to be idealistic. Reviewing and journaling each day is very important to me, lest I drift and spiral away. You can read my [journal](https://zul.rocks/journal/) here.
 
 
