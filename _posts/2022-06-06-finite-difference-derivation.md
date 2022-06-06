@@ -101,7 +101,7 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 
-#Size of matrix mxm. Needs to be odd
+#Size of matrix mxm. Needs to be odd and larger than derivatives order n
 nop=3
 # Set order of derivative (1 - first derivative, 2 - second derivative and so on)
 n = 1
@@ -168,7 +168,7 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 
-#Size of matrix mxm. Needs to be odd
+#Size of matrix mxm. Needs to be odd and larger than derivatives order n
 nop=3
 # Set order of derivative (1 - first derivative, 2 - second derivative and so on)
 n = 2
@@ -271,7 +271,7 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 
-#Size of matrix mxm. Needs to be odd
+#Size of matrix mxm. Needs to be odd and larger than derivatives order n
 nop=5
 # Set order of derivative (1 - first derivative, 2 - second derivative and so on)
 n = 3
@@ -305,7 +305,7 @@ f^{\prime\prime\prime}(x)= \dfrac{-f(x-2) +2f(x-1)-2f(x+1) + f(x+2)}{2dx^{3}}
 The key to these derivation is ultimately in constructing the matrix form $$\mathbf{A}\mathbf{w} = \mathbf{s}$$. Although the steps appear slightly complicated as we go to larger derivatives, they follow the same algorithm namely these lines in the python code:
 
 ```python
-#Size of matrix mxm. Needs to be odd
+#Size of matrix mxm. Needs to be odd and larger than derivatives order n
 nop= xx
 # Set order of derivative (1 - first derivative, 2 - second derivative and so on)
 n = xx
