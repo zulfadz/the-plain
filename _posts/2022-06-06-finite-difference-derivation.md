@@ -28,7 +28,7 @@ and matrix inversion. All of these can be scripted in python from scratch.
 
 ### Deriving for first derivatives
 
-Suppose we are looking for first derivatives at point $$x$$. There are three points of interest; $$x$$, and the points surrounding it, $$x-1, x+1$$:
+Suppose we are looking for first derivatives at point $$x$$. There are three points of interest; $$x$$, and the points surrounding it, $$x-dx, x+dx$$:
 
 <img src="../pictures/firstderiv.png" width="400"/>
 
@@ -39,7 +39,7 @@ f(x)&= f(x) \\
 f(x+dx) &= f(x) + dxf^{\prime}(x) + \frac{dx^{2}}{2!}f^{\prime\prime}(x) + \frac{dx^{3}}{3!}f^{\prime\prime\prime}(x) \cdots 
 \end{align}$$
 
-What we are seeking for is a set of coefficients which  combine these equations into the form 
+What we are seeking for is a set of coefficients which  combine these equations into the form:
 
 $$\begin{equation}
 f^{\prime}(x) = \text{ something } f(x-dx) + \text{ something } f(x) + \text{ something }f(x+dx)
@@ -65,7 +65,9 @@ af(x-dx) + bf(x)+cf(x+dx) &= (a+b+c)f(x) \\
 From the right hand side, as we are only interested in $$f^{\prime} (x)$$, set the scalars as follow:
 
 >$$a+b+c=0$$
+>
 >$$-a+c = \frac{1}{dx}$$
+>
 >$$a+c  = 0$$
 
 This relationship can be converted into a matrix form $$\mathbf{A}\mathbf{w}= \mathbf{s}$$. 
@@ -132,7 +134,9 @@ f^{\prime}(x) = \dfrac{- f(x-dx)+f(x+dx) }{2dx}
 The procedures can be replicated for derivatives of higher order. For second derivatives, we are only interested in $$f^{\prime\prime} (x)$$ from the right hand side of **Equation 1**. As such, set the scalars as follow:
 
 >$$a+b+c=0$$
+>
 >$$-a+c = 0$$
+>
 >$$a+c  = \frac{2!}{dx^2}$$
 
 Convert this into a matrix form $$\mathbf{A}\mathbf{w}= \mathbf{s}$$. 
@@ -191,11 +195,11 @@ $$\begin{align*}
 f^{\prime\prime}(x)= \dfrac{f(x-1) - 2f(x) + f(x+1)}{(dx)^{2}}
 \end{align*}$$
 
-Similar steps can be taken for third derivatives, except that now we need to expand our grid points to include grid points $$x-2$$ and $$x+2$$:
+Similar steps can be taken for third derivatives, except that now we need to expand our grid points to include grid points $$x-2dx$$ and $$x+2dx$$:
 
 <img src="../pictures/thirdderiv.png" width="400"/>
 
-Therefore our system of equations are also larger by additional 2 rows and 2 columns:
+Therefore our system of equations is also larger by additional 2 rows and 2 columns:
 
 $$\begin{align*}
 af(x-2dx) &= af(x) - a2dxf^{\prime}(x)+ a\frac{4dx^{2}}{2!}f^{\prime\prime}(x) - a\frac{8dx^{3}}{3!}f^{\prime\prime\prime}(x) +a\frac{16dx^{4}}{4!}f^{\prime\prime\prime\prime}(x)\cdots \\
@@ -221,9 +225,13 @@ af(x-2dx) &+ bf(x-dx)+cf(x) + df(x_dx) + ef(x+2dx) \\
 As we are interested only in $$f^{\prime\prime\prime}(x)$$, set the scalars on the right hand side as follows:
 
 >$$a+b+c+d+e =0$$
+>
 >$$-2a-b+d+2e=0$$
+>
 >$$4a+b+d+4e =0$$
+>
 >$$-8a-b+d+8e= \frac{3!}{dx^{3}}$$
+>
 >$$16a+b+d+16e =0$$
 
 
@@ -315,4 +323,6 @@ s[n] = math.factorial(n)
 
 Reference:
 
-[1]: Credit to [Computational Seismology: A Practical Introduction](https://www.amazon.com/Computational-Seismology-Introduction-Heiner-Igel/dp/0198717415), [Berkeley Python Numerical Methods](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html) and [Heiner Igel's course](https://www.coursera.org/learn/computers-waves-simulations) from which I learn and refer to for materials on this topic.
+1. [Computational Seismology: A Practical Introduction](https://www.amazon.com/Computational-Seismology-Introduction-Heiner-Igel/dp/0198717415)
+2. [Berkeley Python Numerical Methods](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html)
+3. [Heiner Igel's course](https://www.coursera.org/learn/computers-waves-simulations)
