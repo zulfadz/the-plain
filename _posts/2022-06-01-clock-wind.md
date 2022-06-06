@@ -6,7 +6,7 @@ description: "values"
 keywords: "e.b., white"
 ---
 
-A letter, written by [E.B. White](https://en.wikipedia.org/wiki/Charlotte%27s_Web), which I re-visit[^1] every now and then as a reminder to myself:
+A letter, written by [E.B. White](https://en.wikipedia.org/wiki/Charlotte%27s_Web), which I re-visit[^1] every now and then:
 
 
 >Dear Mr. Nadeau:

@@ -11,7 +11,7 @@ The problem with prediction is that it depends on things outside your control.[^
 
 Meanwhile creation depends on things within your control.
 
-Don't waste time predicting the future. Create it.
+So why waste time predicting the future? Create it.
 
 Footnote:
 
