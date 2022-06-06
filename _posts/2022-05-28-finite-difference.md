@@ -11,7 +11,7 @@ Many physical phenomena can be described by partial differential equations. But 
 
 In this method, the phenomenon of interest is discretized using evenly-spaced grid points. Divide the interval $$[a,b]$$ into $$n$$ evenly-spaced subintervals of length $$dx$$.
 
-<img src="https://raw.githubusercontent.com/zulfadz/zulfadz.github.io/master/pictures/fd0.png" width="400"/>
+<img src="../pictures/fd0.png" width="400"/>
 
 The first and second derivatives of the function can be approximated at each grid using these formulas respectively:[^1]
 
