@@ -17,7 +17,7 @@ f^{\prime\prime}(x)= \dfrac{f(x-1) - 2f(x) + f(x+1)}{(dx)^{2}}
 How are these formulas derived, and how to generalize to third, fourth or higher-order derivatives?
 
 
-We only need to know two things: Taylor's rule
+We only need to know two things: Taylor's series
 
 $$\begin{align*}
 f(x+a) &= f(x) + af^{\prime}(x) + \frac{a^{2}}{2!}f^{\prime\prime}(x) + \frac{a^{3}}{3!}f^{\prime\prime\prime}(x) \cdots \\ 
@@ -32,7 +32,7 @@ Suppose we are looking for first derivatives at point $$x$$. There are three poi
 
 <img src="../pictures/firstderiv.png" width="400"/>
 
-The corresponding values are: 
+The corresponding Taylor series are: 
 $$\begin{align}
 f(x-dx) &= f(x) - dxf^{\prime}(x) + \frac{dx^{2}}{2!}f^{\prime\prime}(x) - \frac{dx^{3}}{3!}f^{\prime\prime\prime}(x) \cdots \\
 f(x)&= f(x) \\
@@ -302,7 +302,7 @@ f^{\prime\prime\prime}(x)= \dfrac{-f(x-2) +2f(x-1)-2f(x+1) + f(x+2)}{2dx^{3}}
 
 ### Epilogue
 
-The key to these derivation is ultimately in constructing the matrix form $$\mathbf{A}\mathbf{w} = \mathbf{s}$$. Although the steps appear slightly complicated as we go to larger derivatives, they follow the same algorithm namely these lines in the python code:
+The key to these derivations is ultimately in constructing the matrix form $$\mathbf{A}\mathbf{w} = \mathbf{s}$$. Although the steps appear slightly complicated as we go to larger derivatives, they follow the same algorithm namely these lines in the python code:
 
 ```python
 #Size of matrix mxm. Needs to be odd and larger than derivatives order n
