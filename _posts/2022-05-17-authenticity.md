@@ -7,11 +7,11 @@ keywords: "seth, godin"
 ---
 
 
-The problem with authenticity is that it is a form of selfishness.[^1] A means to say whatever we have in mind, to act on our impulses. Certainly, it is an excuse to be self-absorbed and self-entitled.
+The problem with authenticity is that it is a form of selfishness.[^1] A ticket to say whatever we have in mind, to do whatever we feel like doing. 
 
-A better approach is to be consistent. A consistent person keeps their promises. They are true to their words. They act the same way whether people are looking or not.
+A better approach is to be consistent. A consistent person makes a promise of how they are expected to behave, and follow through on their promises. When we go into an operating theater, we don't want an authentic doctor, who acts up if say she/he has a fight with their spouses. What we want is a consistent doctor.
 
-A consistent person shows up. They feel like it, or don't feel like it, it doesn't matter. They show up.
+This applies to other areas in life. Authentic person acts the same way whether people are looking or not. Whether they feel like it or not.
 
 
 Footnote:
