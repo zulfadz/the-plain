@@ -17,24 +17,22 @@ f^{\prime\prime}(x)= \dfrac{f(x-1) - 2f(x) + f(x+1)}{(dx)^{2}}
 How are these formulas derived, and how to generalize to third, fourth or higher-order derivatives?
 
 
-We only need to know two things:
-
-1. Taylor's rule:
+We only need to know two things: Taylor's rule
 
 $$\begin{align*}
 f(x+a) &= f(x) + af^{\prime}(x) + \frac{a^{2}}{2!}f^{\prime\prime}(x) + \frac{a^{3}}{3!}f^{\prime\prime\prime}(x) \cdots \\ 
 \end{align*}$$
 
-2. Matrix inversion.
+and matrix inversion. All of these can be scripted in python from scratch.
 
 
-### Deriving first derivatives
+### Deriving for first derivatives
 
-Suppose we are looking for first derivatives at point $$x$$. There are three points of interest -- $$x$$, and the points surrounding it, $$x-1, x+1$$:
+Suppose we are looking for first derivatives at point $$x$$. There are three points of interest; $$x$$, and the points surrounding it, $$x-1, x+1$$:
 
 <img src="../pictures/firstderiv.png" width="400"/>
 
-
+The corresponding values are: 
 $$\begin{align}
 f(x-dx) &= f(x) - dxf^{\prime}(x) + \frac{dx^{2}}{2!}f^{\prime\prime}(x) - \frac{dx^{3}}{3!}f^{\prime\prime\prime}(x) \cdots \\
 f(x)&= f(x) \\
@@ -43,11 +41,11 @@ f(x+dx) &= f(x) + dxf^{\prime}(x) + \frac{dx^{2}}{2!}f^{\prime\prime}(x) + \frac
 
 What we are seeking for is a set of coefficients which  combine these equations into the form 
 
->$$\begin{equation}
+$$\begin{equation}
 f^{\prime}(x) = \text{ something } f(x-dx) + \text{ something } f(x) + \text{ something }f(x+dx)
 \end{equation}$$ 
 
-Multiply equations 2,3 and 4 with arbitrary scalars $$a,b$$ and $$c$$ respectively
+Multiply the three equations above with arbitrary scalars $$a,b$$ and $$c$$ respectively:
 
 $$\begin{align*}
 af(x-dx) &= af(x) - adxf^{\prime}(x)+ a\frac{dx^{2}}{2!}f^{\prime\prime}(x) - a\frac{dx^{3}}{3!}f^{\prime\prime\prime}(x) \cdots \\
@@ -55,7 +53,7 @@ bf(x)&= bf(x) \\
 cf(x+dx) &= cf(x) + cdxf^{\prime}(x) + c\frac{dx^{2}}{2!}f^{\prime\prime}(x) + c\frac{dx^{3}}{3!}f^{\prime\prime\prime}(x) \cdots 
 \end{align*}$$
 
-Adding them yield 
+Adding them leads to **Equation 1**:
 
 $$\begin{align}
 af(x-dx) + bf(x)+cf(x+dx) &= (a+b+c)f(x) \\
@@ -64,11 +62,11 @@ af(x-dx) + bf(x)+cf(x+dx) &= (a+b+c)f(x) \\
 &+ \text{residuals (error terms)}
 \end{align}$$
 
-From the right hand side, we are only interested in $$f^{\prime} (x)$$, as such set the scalars as follow:
+From the right hand side, as we are only interested in $$f^{\prime} (x)$$, set the scalars as follow:
 
-1. $$a+b+c=0$$
-2. $$-a+c = \frac{1}{dx}$$
-3. $$a+c  = 0$$
+>$$a+b+c=0$$
+>$$-a+c = \frac{1}{dx}$$
+>$$a+c  = 0$$
 
 This relationship can be converted into a matrix form $$\mathbf{A}\mathbf{w}= \mathbf{s}$$. 
 
@@ -101,7 +99,7 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 
-#Size of matrix
+#Size of matrix mxm. Needs to be odd
 nop=3
 # Set order of derivative (1 - first derivative, 2 - second derivative and so on)
 n = 1
@@ -123,19 +121,19 @@ w = np.linalg.solve(m, s)
 > [-0.5  0.   0.5]
 
 
-Hence, $$a= \frac{-1}{2dx}, b=0, c=\frac{1}{2dx}$$. Substitute these into equations 6,7,8 and we are done:
+Hence, $$a= \frac{-1}{2dx}, b=0, c=\frac{1}{2dx}$$. Substitute these into **Equation 1** and we are done:
 
 $$\begin{align*}
 f^{\prime}(x) = \dfrac{- f(x-dx)+f(x+dx) }{2dx}
 \end{align*}$$
 
-### Deriving second or higher-order derivatives
+### Deriving for second or higher-order derivatives
 
-The procedures can be replicated for derivatives of higher order. For second derivatives, we are only interested in $$f^{\prime\prime} (x)$$ from the right hand side of equations 6,7,8. As such, set the scalars as follow:
+The procedures can be replicated for derivatives of higher order. For second derivatives, we are only interested in $$f^{\prime\prime} (x)$$ from the right hand side of **Equation 1**. As such, set the scalars as follow:
 
-1. $$a+b+c=0$$
-2. $$-a+c = 0$$
-3. $$a+c  = \frac{2!}{dx^2}$$
+>$$a+b+c=0$$
+>$$-a+c = 0$$
+>$$a+c  = \frac{2!}{dx^2}$$
 
 Convert this into a matrix form $$\mathbf{A}\mathbf{w}= \mathbf{s}$$. 
 
@@ -166,7 +164,7 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 
-#Size of matrix
+#Size of matrix mxm. Needs to be odd
 nop=3
 # Set order of derivative (1 - first derivative, 2 - second derivative and so on)
 n = 2
@@ -187,13 +185,13 @@ w = np.linalg.solve(m, s)
 
 > [ 1. -2.  1.]
 
-Hence, $$a= \frac{1}{dx^{2}}, b=\frac{-2}{dx^{2}}, c=\frac{1}{dx^{2}}$$. Substitute these into equations 6,7,8 and we are done:
+Hence, $$a= \frac{1}{dx^{2}}, b=\frac{-2}{dx^{2}}, c=\frac{1}{dx^{2}}$$. Substitute these into **Equation 1** and we are done:
 
 $$\begin{align*}
 f^{\prime\prime}(x)= \dfrac{f(x-1) - 2f(x) + f(x+1)}{(dx)^{2}}
 \end{align*}$$
 
-Similar steps can be taken for third derivatives, except that we need to expand our grid points to include grid points $$x-2$$ and $$x+2$$:
+Similar steps can be taken for third derivatives, except that now we need to expand our grid points to include grid points $$x-2$$ and $$x+2$$:
 
 <img src="../pictures/thirdderiv.png" width="400"/>
 
@@ -222,11 +220,11 @@ af(x-2dx) &+ bf(x-dx)+cf(x) + df(x_dx) + ef(x+2dx) \\
 
 As we are interested only in $$f^{\prime\prime\prime}(x)$$, set the scalars on the right hand side as follows:
 
-1. $$a+b+c+d+e =0$$
-2. $$-2a-b+d+2e=0$$
-3. $$4a+b+d+4e =0$$
-4. $$-8a-b+d+8e= \frac{3!}{dx^{3}}$$
-5. $$16a+b+d+16e =0$$
+>$$a+b+c+d+e =0$$
+>$$-2a-b+d+2e=0$$
+>$$4a+b+d+4e =0$$
+>$$-8a-b+d+8e= \frac{3!}{dx^{3}}$$
+>$$16a+b+d+16e =0$$
 
 
 
@@ -265,7 +263,7 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 
-#Size of matrix
+#Size of matrix mxm. Needs to be odd
 nop=5
 # Set order of derivative (1 - first derivative, 2 - second derivative and so on)
 n = 3
@@ -293,6 +291,27 @@ leading to
 $$\begin{align*}
 f^{\prime\prime\prime}(x)= \dfrac{-f(x-2) +2f(x-1)-2f(x+1) + f(x+2)}{2dx^{3}}
 \end{align*}$$ 
+
+### Epilogue
+
+The key to these derivation is ultimately in constructing the matrix form $$\mathbf{A}\mathbf{w} = \mathbf{s}$$. Although the steps appear slightly complicated as we go to larger derivatives, they follow the same algorithm namely these lines in the python code:
+
+```python
+#Size of matrix mxm. Needs to be odd
+nop= xx
+# Set order of derivative (1 - first derivative, 2 - second derivative and so on)
+n = xx
+# Produce matrix A
+A = np.zeros((nop, nop))
+    for i in range(nop):
+        for j in range(nop):
+            dx = j - nop // 2
+            A[i, j] = dx ** i
+#Produce vector s 
+s = np.zeros(nop)
+s[n] = math.factorial(n)
+```
+
 
 Reference:
 
