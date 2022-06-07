@@ -13,8 +13,8 @@ Currently, I'm focusing on solving all the problems from abbott's understanding 
 
 I am also working on other projects. Notes and solutions will be posted as soon as they become available:
 
-+ coursera on [computers, waves, simulations]((https://www.coursera.org/learn/computers-waves-simulations)). ([notes available](https://zul.rocks/waves-coursera/))<span style="color:gray">(projects)</span>
-+ sheldon's linear algebra done right. <span style="color:gray">(notes)</span>([solutions available](https://zul.rocks/axler-linearalgebra-solution/))
++ coursera on [computers, waves, simulations]((https://www.coursera.org/learn/computers-waves-simulations)). ([**notes**](https://zul.rocks/waves-coursera/))<span style="color:gray">(projects)</span>
++ sheldon's linear algebra done right. <span style="color:gray">(notes)</span>([**solutions**](https://zul.rocks/axler-linearalgebra-solution/))
 +  berkeley's python programming and numerical methods. <span style="color:gray">(notes)(solutions)</span>
 + esa's mooc on [earth observation from space](https://www.imperativemoocs.com/courses/the-optical-view). <span style="color:gray">(notes)(solutions)</span>
 + aops' counting and probability. <span style="color:gray">(notes)(solutions)</span>
