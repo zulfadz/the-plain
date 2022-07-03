@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cardinality 1: Any open interval (a,b) the has same cardinality as R"
+title: "Cardinality 1: Any open interval (a,b) has the same cardinality as R"
 comments: true
 description: "math"
 keywords: "analysis"
