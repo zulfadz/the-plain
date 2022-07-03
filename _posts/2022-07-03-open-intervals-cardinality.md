@@ -15,7 +15,7 @@ $$\begin{align*}
 
 Since the composition of two bijections is a bijection, having $$g \circ f^{-1}: \mathbb R \to (a,b)$$ will complete the proof.
 
-For the first step, note that $$f: (-1,1) \to \mathbb R$$ given by 
+For the first step, note that $$f: (-1,1) \to \mathbb R$$ is given by 
 
 
 $$\begin{align*}
@@ -32,13 +32,13 @@ f^{\prime} &= -\dfrac{1+x^2}{(x^2-1)^{2}} \\
 we know that it is strictly decreasing on $$(-1,1)$$ and continuous, which implies it is injective.[^1] Moreover since, 
 
 $$\begin{align*}
-\lim_{x \to -1} \dfrac{x}{1-x^{2}} = -\infty
+\lim_{x \to -1} \dfrac{x}{x^{2}-1} = -\infty
 \end{align*}$$
 
 and 
 
 $$\begin{align*}
-\lim_{x \to 1} \dfrac{x}{1-x^{2}} = \infty,
+\lim_{x \to 1} \dfrac{x}{x^{2}-1} = \infty,
 \end{align*}$$
 
 we know it is surjective.[^2]
@@ -53,7 +53,7 @@ Thus $$g: (-1,1) \to (a,b)$$ is given by
 
 $$\begin{align*}
 g(x) = \dfrac{(a+b) + x(b-a)}{2}.
-\end{align*}.$$ 
+\end{align*}$$ 
 
 As $$g$$ is linear and $$g^{\prime}(x) = \dfrac{b-a}{2}>0$$, it is strictly increasing on $$(-1,1)$$ and continuous. By the same argument, $$g$$ is a bijection.
 
