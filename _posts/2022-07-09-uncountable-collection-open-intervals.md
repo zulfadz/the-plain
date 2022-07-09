@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cardinality 2: An uncountable collection of disjoint open intervals does not exist"
+title: "An uncountable collection of disjoint open intervals does not exist"
 comments: true
 description: "math"
 keywords: "analysis"
@@ -15,18 +15,18 @@ $$\begin{equation}
 
 is an infinite, countable collection of disjoint open intervals.
 
-What's interesting is that one would not be able to find an example of an uncountable collection of disjoint open intervals. Intuitively, what this means is that there isn't enough "room" to fit uncountably many open intervals into $\mathbb R$ without some overlap.[^1] 
+What's interesting is that one would not be able to find an example of an uncountable collection of disjoint open intervals. Intuitively, what this means is that there isn't enough "room" to fit uncountably many open intervals into $$\mathbb R$$ without some overlap.[^1] 
 
 
 To prove this, let $$\{A\}$$ be a collection of disjoint open intervals. Given any $$A$$, let $$x \in A$$.
 
-Since $$A$$ is an open interval, there exists $$\epsilon >0$$ such that $$(x-\epsilon, x+\epsilon) \subseteq A$$.
+1. $$A$$ is an open interval $$\implies $$ there exists $$\epsilon >0$$ such that $$(x-\epsilon, x+\epsilon) \subseteq A$$.
 
-As $$\mathbb Q$$ is dense in $$\mathbb R$$, there exists a rational number $$r \in (x-\epsilon, x+\epsilon)$$.
+2. $$\mathbb Q$$ is dense in $$\mathbb R$$ $$\implies$$ there exists a rational number $$r \in (x-\epsilon, x+\epsilon)$$.
 
-As $$A$$ is disjoint, it implies that $$r$$ is distinct for each $$A$$.
+3. $$A$$ is disjoint $$\implies$$ $$r$$ is distinct for each $$A$$.
 
-Since $$\mathbb Q$$ is countable, there are countably many such $$r$$, which means there are countably many $$A$$.
+4. $$\mathbb Q$$ is countable $$\implies$$ there are countably many such $$r$$, which means there are countably many $$A$$.
 
 
 
