@@ -22,11 +22,11 @@ To prove this, let $$\{A\}$$ be a collection of disjoint open intervals. Given a
 
 Since $$A$$ is an open interval, there exists $$\epsilon >0$$ such that $$(x-\epsilon, x+\epsilon) \subseteq A$$.
 
-As $$\mathbb Q$$ is dense in $$\mathbb R$$, there exists a rational number $$r \in $$(x-\epsilon, x+\epsilon)$$.
+As $$\mathbb Q$$ is dense in $$\mathbb R$$, there exists a rational number $$r \in (x-\epsilon, x+\epsilon)$$.
 
-As $$A$$ is disjoint, it also implies that $$r$$ is distinct for each $$A$$.
+As $$A$$ is disjoint, it implies that $$r$$ is distinct for each $$A$$.
 
-We also know that $$\mathbb Q$$ is countable. It follows that there are countably many such $$r$$, which means there are countably many $$A$$.
+Since $$\mathbb Q$$ is countable, there are countably many such $$r$$, which means there are countably many $$A$$.
 
 
 
