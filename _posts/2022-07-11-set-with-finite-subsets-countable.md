@@ -12,7 +12,7 @@ Today, I found this very cool exercise from Abbott:
 
 The key part of this statement is that if we take any finite subset of $$B$$, the elements of the subset will always add up to 2 or less.
 
-Intuitively, the implication of this condition is that $$B$$ can be decomposed into countably many finite subsets. As the union of countably many finite subsets is countable (Theorem 1.5.8 in Abbott) we can establish that $$B$$ is countable.
+Intuitively, the implication of this condition is that $$B$$ can be decomposed into countably many finite subsets. As the union of countably many finite subsets is countable (Theorem 1.5.8 in Abbott), we can establish that $$B$$ is countable.
 
 To see this argument more clearly[^1], for each $$n \in \mathbb N $$ define 
 
