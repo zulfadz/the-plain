@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "$$\bigcap_{n=1}^{\infty}(0,1 / n)=\emptyset$$"
+title: "Infinite intersections of (0,1/n)) are empty"
 comments: true
 description: "math"
 keywords: "analysis"
