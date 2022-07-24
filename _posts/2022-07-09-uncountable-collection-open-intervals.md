@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "An uncountable collection of disjoint open intervals does not exist"
+title: "There is no uncountable collection of disjoint open intervals"
 comments: true
 description: "math"
 keywords: "analysis"
