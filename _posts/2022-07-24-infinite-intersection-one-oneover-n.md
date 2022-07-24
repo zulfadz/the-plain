@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Infinite intersections of (0,1/n)) are empty"
+title: "Infinite intersections of (0,1/n) are empty"
 comments: true
 description: "math"
 keywords: "analysis"
