@@ -9,7 +9,7 @@ title: Log - 100 days of moodboard
 
 **Today's Progress**: Created first post. Named the theme of this year to be _vibe check_. Pretentious? Yes. Classic? Yes. A right choice? Absolutely.
 
-**Thoughts:** I'm excited. The website, which I stayed overnight creating, looks stunning.
+**Thoughts:** I'm excited. The website, which I stayed overnight creating, looks stunning. Also, I may want to change the title to month of posts.
 
 **Link to work:** On local host. 
 

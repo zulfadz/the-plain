@@ -4,13 +4,12 @@ title: Log - 100 days of working out
 ---
 
 
-##### Day 1: July 30, 2022
+##### Day 0: July 30, 2022
 
-**Today's Progress**: 
+**Today's Progress**: Did not manage to workout
 
-**Thoughts:** 
+**Thoughts:** Went to gym at 4pm, and the building was actually overflowing with cars. It was impossible to even enter the building. Tomorrow I should come in the morning.
 
-**Link to work:** 
 
 
 

@@ -4,11 +4,13 @@ title: Log - 7 weeks of creating art
 ---
 
 
-##### Week 1: July 30, 2022
+##### Week 1: July 31, 2022
 
 **Today's Progress**: 
 
+
 **Thoughts:** 
+
 
 **Link to work:** 
 

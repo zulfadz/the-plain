@@ -16,6 +16,18 @@ title: Log - 100 days of anki
 
 <div class="divider"></div>
 
+##### Day 2: July 31, 2022
+
+**Today's Progress**: 
+
+**Thoughts:** 
+
+**Link to work:** On local host. 
+
+
+
+<div class="divider"></div>
+
 
 
 
