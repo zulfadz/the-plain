@@ -6,11 +6,11 @@ title: Log - 100 days of working out
 
 ##### Day 1: July 30, 2022
 
-**Today's Progress**: This is actually not my first time doing anki. But it's my first day tracking it. Did this first thing in the morning. It took about 15 minutes.
+**Today's Progress**: 
 
-**Thoughts:** Doing anki first thing in the morning has been working well so far.
+**Thoughts:** 
 
-**Link to work:** On local host. 
+**Link to work:** 
 
 
 

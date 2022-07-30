@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Log - 100 days of moodboard
-permalink: /books/
+
 ---
 
 
