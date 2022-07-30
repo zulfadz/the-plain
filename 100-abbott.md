@@ -24,7 +24,7 @@ Proof of Schröder-Bernstein Theorem _kicked_ my ass. It took me about 4 hour (i
 
 **Thoughts:** 
 
-**Link to work:** On local host. 
+**Link to work:** [Solution to Abbott](https://zul.rocks/abbott-solution/).
 
 
 
