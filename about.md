@@ -21,6 +21,6 @@ I am also working on other projects. Notes and solutions will be posted as soon 
 
 ## Personality
 
-I am a certified INFP, who can't help falling into his idealistic tendencies. Reviewing and journaling each day keeps me from drifting and spiraling away. You can read my [journal](https://zul.rocks/journal/) here.
+A certified INFP, I may or may not always fall into his idealistic tendencies.
 
 

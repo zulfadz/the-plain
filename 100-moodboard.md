@@ -17,7 +17,29 @@ title: Log - 100 days of moodboard
 
 <div class="divider"></div>
 
+##### Day 2: July 31, 2022
 
+**Today's Progress**: Added scenes from my drive to gym, and warhol paintings.
+
+**Thoughts:** This week I'm feeling warhol for the most part. I'm thinking how to make this less warhol-centric. But then it's a _moodboard_, so it's supposed to reflect my current mood.
+
+**Link to work:** On local host. 
+
+
+
+<div class="divider"></div>
+
+##### Day 3: August 1, 2022
+
+**Today's Progress**: 
+
+**Thoughts:** 
+
+**Link to work:** On local host. 
+
+
+
+<div class="divider"></div>
 
 
 

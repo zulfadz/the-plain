@@ -18,6 +18,18 @@ title: Log - 100 days of anki
 
 ##### Day 2: July 31, 2022
 
+**Today's Progress**: Completed in about 17 minutes. But I still need to add questions from yesterday.
+
+**Thoughts:** Doing this first thing in the morning really slaps. But my worry is that on weekdays, I may have to go to the gym early to avoid traffic, in which case, I don't know what should I do first. This, or gym?
+
+**Link to work:** On local host. 
+
+
+
+<div class="divider"></div>
+
+##### Day 3: August 1, 2022
+
 **Today's Progress**: 
 
 **Thoughts:** 

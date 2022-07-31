@@ -20,6 +20,18 @@ Proof of Schröder-Bernstein Theorem _kicked_ my ass. It took me about 4 hour (i
 
 ##### Day 2: July 31, 2022
 
+**Today's Progress**: Finished four exercises (1.6.1, 1.6.2, 1.6.3, and 1.6.4).
+
+**Thoughts:** It was a fairly smooth session, except for a moment when I was falsely convinced that Cantor's Theorem would have worked for rational numbers too. I think Cantor's Theorem can be a blog post (or two blog posts). It took me 1h40min to complete the session.
+
+**Link to work:** [Solution to Abbott](https://zul.rocks/abbott-solution/).
+
+
+
+<div class="divider"></div>
+
+##### Day 3: August 1, 2022
+
 **Today's Progress**: 
 
 **Thoughts:** 
