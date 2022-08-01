@@ -30,6 +30,20 @@ title: Log - 100 days of anki
 
 ##### Day 3: August 1, 2022
 
+**Today's Progress**: Finished in 30 minutes. I did some while waiting for my parents to go to hospital, and resumed after driving them there.
+
+**Thoughts:** I think this is the sweetspot of anki review. First thing first, day after day.
+
+**Link to work:** On local host. 
+
+
+
+<div class="divider"></div>
+
+<div class="divider"></div>
+
+##### Day 4: August 2, 2022
+
 **Today's Progress**: 
 
 **Thoughts:** 

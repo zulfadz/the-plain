@@ -31,9 +31,9 @@ title: Log - 100 days of moodboard
 
 ##### Day 3: August 1, 2022
 
-**Today's Progress**: 
+**Today's Progress**: Added a photo from Nasi Ayam Kunyit place.
 
-**Thoughts:** 
+**Thoughts:** No thoughts just vibe.
 
 **Link to work:** On local host. 
 

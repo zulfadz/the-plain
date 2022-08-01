@@ -32,6 +32,18 @@ Proof of Schröder-Bernstein Theorem _kicked_ my ass. It took me about 4 hour (i
 
 ##### Day 3: August 1, 2022
 
+**Today's Progress**: Finished 4 exercises (1.6.5, 1.6.6, 1.6.7, and 1.6.8).
+
+**Thoughts:** I thought Abbott did an amazing job guiding the readers on how to prove Cantor's Theorem. I managed to do everything, except for 1.6.4(b) which confounded me because now that we assumed $$a^{\prime} \notin B$$, I thought that's certainly a possibility. But this is ridiculous because it contradicts the definition of $$B$$.  I suppose I haven't fully internalized the definition. Anyhow, next time, we read the definition $$B = \{ a \in A : a \notin f ( a ) \}$$ as follows: $$a \notin f ( a ) \}$$ iff $$a \in B$$. Then it's clear that if $$a \notin B = f(a)$$ then $$a \in B$$ (Part B). Similarly, if $$a \in B = f(a)$$, then $$a \notin f(a)$$ (Part A).
+
+**Link to work:** [Solution to Abbott](https://zul.rocks/abbott-solution/).
+
+
+
+<div class="divider"></div>
+
+##### Day 4: August 2, 2022
+
 **Today's Progress**: 
 
 **Thoughts:** 
