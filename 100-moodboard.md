@@ -41,6 +41,30 @@ title: Log - 100 days of moodboard
 
 <div class="divider"></div>
 
+##### Day 4: August 2, 2022
+
+**Today's Progress**: Added David's hand photo.
+
+**Thoughts:** No thoughts just vibe.
+
+**Link to work:** On local host. 
+
+
+
+<div class="divider"></div>
+
+##### Day 5: August 3, 2022
+
+**Today's Progress**: Added kebab guy and gergia o'keeffee's piece.
+
+**Thoughts:** No thoughts just vibe.
+
+**Link to work:** On local host. 
+
+
+
+<div class="divider"></div>
+
 
 
 

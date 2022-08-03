@@ -43,6 +43,15 @@ title: Log - 100 days of working out
 
 <div class="divider"></div>
 
+##### Day 3: August 3, 2022
+
+**Today's Progress**: Managed to do leg workout at night (drove from home 8pm)
+
+**Thoughts:** Today is very meaningful. Namely I faced many resisting urges to abort workout today. Initially planned to do in morning, but woke late -- so lunch it was, but came lunch, I was starving, so I said let's do this in the evening -- came late evening, I was thinking there may be traffic jam. Finally I made my mind not to miss workout twice and willed myself to go at night.
+
+
+<div class="divider"></div>
+
 
 
 
