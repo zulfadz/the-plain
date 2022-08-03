@@ -32,12 +32,13 @@ title: Log - 100 days of working out
 
 
 <div class="divider"></div>
+<span style=color:red> Missed day</span>
 
-##### Day 3: August 2, 2022
+##### August 2, 2022
 
-**Today's Progress**: 
+**Today's Progress**: Planned to go during lunch. But there's a meeting right before and after lunch. Damn.
 
-**Thoughts:** 
+**Thoughts:** Next time, let's not plan to go to gym during lunch _if_ there are meetings close to before or after it.
 
 
 <div class="divider"></div>

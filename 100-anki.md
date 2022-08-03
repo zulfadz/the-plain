@@ -44,15 +44,28 @@ title: Log - 100 days of anki
 
 ##### Day 4: August 2, 2022
 
-**Today's Progress**: 
+**Today's Progress**: Finished review in 18 minutes.
 
-**Thoughts:** 
+**Thoughts:** No thoughts just vibe.
 
 **Link to work:** On local host. 
 
 
 
 <div class="divider"></div>
+
+##### Day 5: August 3, 2022
+
+**Today's Progress**: Finished review in record-breaking 6 minutes.
+
+**Thoughts:** No thoughts just vibe.
+
+**Link to work:** On local host. 
+
+
+
+<div class="divider"></div>
+
 
 
 

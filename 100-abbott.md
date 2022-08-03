@@ -44,9 +44,9 @@ Proof of Schröder-Bernstein Theorem _kicked_ my ass. It took me about 4 hour (i
 
 ##### Day 4: August 2, 2022
 
-**Today's Progress**: 
+**Today's Progress**: Did 1.6.9. But did not manage to finish after 1h30min. So I stopped.
 
-**Thoughts:** 
+**Thoughts:** I quite like this self-discipline to stop...
 
 **Link to work:** [Solution to Abbott](https://zul.rocks/abbott-solution/).
 
