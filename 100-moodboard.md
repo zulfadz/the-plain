@@ -55,7 +55,19 @@ title: Log - 100 days of moodboard
 
 ##### Day 5: August 3, 2022
 
-**Today's Progress**: Added kebab guy and gergia o'keeffee's piece.
+**Today's Progress**: Added kebab guy and gergia o'keeffee's piece and Maya Angelou.
+
+**Thoughts:** No thoughts just vibe.
+
+**Link to work:** On local host. 
+
+
+
+<div class="divider"></div>
+
+##### Day 6: August 4, 2022
+
+**Today's Progress**: Feeling basquiat and spirited away.
 
 **Thoughts:** No thoughts just vibe.
 

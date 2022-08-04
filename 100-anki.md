@@ -37,9 +37,6 @@ title: Log - 100 days of anki
 **Link to work:** On local host. 
 
 
-
-<div class="divider"></div>
-
 <div class="divider"></div>
 
 ##### Day 4: August 2, 2022
@@ -59,6 +56,18 @@ title: Log - 100 days of anki
 **Today's Progress**: Finished review in record-breaking 6 minutes.
 
 **Thoughts:** No thoughts just vibe.
+
+**Link to work:** On local host. 
+
+
+
+<div class="divider"></div>
+
+##### Day 6: August 4, 2022
+
+**Today's Progress**: Did this at around 7am, for about 20min.
+
+**Thoughts:** Smooth, no complain.
 
 **Link to work:** On local host. 
 

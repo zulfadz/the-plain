@@ -66,6 +66,18 @@ Proof of Schröder-Bernstein Theorem _kicked_ my ass. It took me about 4 hour (i
 
 <div class="divider"></div>
 
+##### Day 6: August 4, 2022
+
+**Today's Progress**: Finished 1.6.10.
+
+**Thoughts:** I learned a lot from this question. In particular using example of sets I've seen in the past, and making deductions whether some sets are countable or not.
+
+**Link to work:** [Solution to Abbott](https://zul.rocks/abbott-solution/).
+
+
+
+<div class="divider"></div>
+
 
 
 

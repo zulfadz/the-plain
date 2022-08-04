@@ -52,6 +52,15 @@ title: Log - 100 days of working out
 
 <div class="divider"></div>
 
+##### Day 4: August 4, 2022
+
+**Today's Progress**: Went to gym (drove from office at 6.30pm) to do arm workout. It was supposed to be a tennis day, but it rained.
+
+**Thoughts:** I was glad I went to gym but I couldn't help but feeling uncomfortable by the amount of people at the gym, and how some of them hovered around me. Boundaries, please. I might be disgusted enough to go during this time again.
+
+
+<div class="divider"></div>
+
 
 
 
