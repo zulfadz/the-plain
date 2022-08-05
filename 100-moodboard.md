@@ -77,6 +77,17 @@ title: Log - 100 days of moodboard
 
 <div class="divider"></div>
 
+##### Day 7: August 5, 2022
+
+**Today's Progress**: Cute black cat on my home from mosque.
+
+**Thoughts:** No thoughts just vibe.
+
+**Link to work:** On local host. 
+
+
+
+<div class="divider"></div>
 
 
 

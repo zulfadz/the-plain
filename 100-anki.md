@@ -75,6 +75,18 @@ title: Log - 100 days of anki
 
 <div class="divider"></div>
 
+##### Day 7: August 5, 2022
+
+**Today's Progress**: So far so good. About 20 min.
+
+**Thoughts:** I need to update Anki with latest q's.
+
+**Link to work:** On local host. 
+
+
+
+<div class="divider"></div>
+
 
 
 

@@ -61,6 +61,17 @@ title: Log - 100 days of working out
 
 <div class="divider"></div>
 
+<span style=color:red> Missed day</span>
+
+##### August 5, 2022
+
+**Today's Progress**: I was supposed to go to the gym in the evening, but i was in a 4h+ work call.
+
+**Thoughts:** I don't really feel as bad for missing this. As some break is not bad. As long as not twice in a row.
+
+
+<div class="divider"></div>
+
 
 
 
