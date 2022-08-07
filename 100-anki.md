@@ -87,6 +87,31 @@ title: Log - 100 days of anki
 
 <div class="divider"></div>
 
+##### Day 8: August 6, 2022
+
+**Today's Progress**: Took me about 25 minutes. A number of the questions are new questions. Took me sometime to think.
+
+**Thoughts:** I'm thinking to also added to anki questions from earlier sections. But maybe I'll do that towards the end since I'm about to start chapter 2.
+
+**Link to work:** On local host. 
+
+
+
+<div class="divider"></div>
+
+##### Day 9: August 7, 2022
+
+**Today's Progress**: Took me about 20 minutes. Now all updated to section 2.1.
+
+**Thoughts:** No thoughts
+
+**Link to work:** On local host. 
+
+
+
+<div class="divider"></div>
+
+
 
 
 

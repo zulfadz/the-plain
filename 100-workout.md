@@ -72,6 +72,24 @@ title: Log - 100 days of working out
 
 <div class="divider"></div>
 
+##### Day 5: August 6, 2022
+
+**Today's Progress**: Really glad I made it through today. Was not in the mood, but willed myself to go through a chest workout and a 25 min cardio.
+
+**Thoughts:** Gym in the weekend evening is quite nice. Relatively quiet.
+
+
+<div class="divider"></div>
+
+##### Day 6: August 7, 2022
+
+**Today's Progress**: 
+
+**Thoughts:** 
+
+
+<div class="divider"></div>
+
 
 
 

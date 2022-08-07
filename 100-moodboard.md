@@ -89,5 +89,22 @@ title: Log - 100 days of moodboard
 
 <div class="divider"></div>
 
+<span>Missed day</span>
+
+##### August 6, 2022
+
+**Today's Progress**: Did not manage to update. Was very distracted today.
+
+
+<div class="divider"></div>
+
+##### Day 8: August 7, 2022
+
+**Today's Progress**: 
+
+**Thoughts:** 
+
+**Link to work:**  
+
 
 

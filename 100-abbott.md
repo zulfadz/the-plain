@@ -78,6 +78,38 @@ Proof of Schröder-Bernstein Theorem _kicked_ my ass. It took me about 4 hour (i
 
 <div class="divider"></div>
 
+<span style=color:red>Missed day</span>
+
+##### August 5, 2022
+
+**Today's Progress**: Work ended up taking my whole evening
+
+<div class="divider"></div>
+
+##### Day 7: August 6, 2022
+
+**Today's Progress**: Went through 2.1.
+
+**Thoughts:** Proud of this. I got derailed this day, and ended up doing this at 815pm. Was very sleepy, so I took a break after 30min, and resume for another 30min.
+
+**Link to work:** [Solution to Abbott](https://zul.rocks/abbott-solution/).
+
+
+
+<div class="divider"></div>
+
+##### Day 8: August 7, 2022
+
+**Today's Progress**: 
+
+**Thoughts:** 
+
+**Link to work:** [Solution to Abbott](https://zul.rocks/abbott-solution/).
+
+
+
+<div class="divider"></div>
+
 
 
 

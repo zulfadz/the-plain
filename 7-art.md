@@ -18,15 +18,42 @@ title: Log - 7 weeks of creating art
 
 <div class="divider"></div>
 
+##### Week 2: August 6, 2022
+
+**Today's Progress**: Drew a thumbnail of a building in paris.
+
+
+**Thoughts:** Doing art in the morning really works well. This is probably one which would I most easily not do in other time of the day due to heat and just for the fact that it's a new habit, one which has been the least ingrained in me.
+
+
+**Link to work:** Have not published online.
+
+
+
+<div class="divider"></div>
+
 ##### Week 2: August 7, 2022
 
-**Today's Progress**: 
+**Today's Progress**: Started Kate Sutton's illustrative journaling course. No real painting is done yet. We mostly went through her background and the equipments needed.
 
+
+**Thoughts:** Two art sessions this week! Each also under 1 hour. Very nice. 
+
+
+**Link to work:** Have not published online.
+
+
+
+<div class="divider"></div>
+
+##### Week 3: August 14, 2022
+
+**Today's Progress**: 
 
 **Thoughts:** 
 
 
-**Link to work:** 
+**Link to work:** Have not published online.
 
 
 
