@@ -20,7 +20,7 @@ title: Log - 7 weeks of creating art
 
 ##### Week 2: August 6, 2022
 
-**Today's Progress**: Drew a thumbnail of a building in paris.
+**Today's Progress**: Drew a thumbnail of a building in paris. Materials used are round brush, fountain pen, carbon ink, tombow dual brush 947, n75, n95, and a gel pen.
 
 
 **Thoughts:** Doing art in the morning really works well. This is probably one which would I most easily not do in other time of the day due to heat and just for the fact that it's a new habit, one which has been the least ingrained in me.
