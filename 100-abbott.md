@@ -100,9 +100,9 @@ Proof of Schröder-Bernstein Theorem _kicked_ my ass. It took me about 4 hour (i
 
 ##### Day 8: August 7, 2022
 
-**Today's Progress**: 
+**Today's Progress**: Finished half of section 2.1.
 
-**Thoughts:** 
+**Thoughts:** I lovee how this is written. My favorite part is when sequences are also defined from topological perspective.
 
 **Link to work:** [Solution to Abbott](https://zul.rocks/abbott-solution/).
 

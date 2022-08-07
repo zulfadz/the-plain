@@ -93,7 +93,7 @@ title: Log - 100 days of moodboard
 
 ##### August 6, 2022
 
-**Today's Progress**: Did not manage to update. Was very distracted today.
+**Today's Progress**: Did not manage to update. Was very distracted today (by work, then by hurtful comments from a family member).
 
 
 <div class="divider"></div>
