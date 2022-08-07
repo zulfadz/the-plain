@@ -100,7 +100,7 @@ title: Log - 100 days of moodboard
 
 ##### Day 8: August 7, 2022
 
-**Today's Progress**: 
+**Today's Progress**: Today's pictures brought to you by apartment visits at hartamas, and a podcast featuring jake gyllenhaal.
 
 **Thoughts:** 
 

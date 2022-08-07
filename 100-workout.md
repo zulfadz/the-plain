@@ -83,9 +83,9 @@ title: Log - 100 days of working out
 
 ##### Day 6: August 7, 2022
 
-**Today's Progress**: 
+**Today's Progress**: Back workout done. Plus two abs and one cardio.
 
-**Thoughts:** 
+**Thoughts:**  I'm getting weaker i think. Can barely do 28.5kg pulldown. Barely done pullups. Similarly, for other exercises. Probably because my meals were messed up yesterday (ate lunch at 4pm). Or I subconciously eating less because I've been getting comments that I'm fat. Tomorrow, let's aim to eat 5 times a day - by 7am, 10am, 1pm, 3pm, 7pm.
 
 
 <div class="divider"></div>
