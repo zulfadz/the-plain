@@ -110,6 +110,18 @@ Proof of Schröder-Bernstein Theorem _kicked_ my ass. It took me about 4 hour (i
 
 <div class="divider"></div>
 
+##### Day 9: August 8, 2022
+
+**Today's Progress**: Finished up until exercises 2.1.4.
+
+**Thoughts:** Sequences are pretty intuitive. Also I'm doing this in between work. Quite effective.
+
+**Link to work:** [Solution to Abbott](https://zul.rocks/abbott-solution/).
+
+
+
+<div class="divider"></div>
+
 
 
 

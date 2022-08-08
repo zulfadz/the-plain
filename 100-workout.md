@@ -90,6 +90,24 @@ title: Log - 100 days of working out
 
 <div class="divider"></div>
 
+<span style=color:red>Missed day</span>
+
+##### August 8, 2022
+
+**Today's Progress**: Planned to go gym after maghrib. But ended up doing coursera on waves, which should be done at 6pm/6.30pm, but derailed by my abbott webpage not loading.
+
+
+<div class="divider"></div>
+
+##### Day 7: August 9, 2022
+
+**Today's Progress**: .
+
+**Thoughts:**  
+
+
+<div class="divider"></div>
+
 
 
 

@@ -111,6 +111,18 @@ title: Log - 100 days of anki
 
 <div class="divider"></div>
 
+##### Day 10: August 8, 2022
+
+**Today's Progress**: Today, I reviewed some of section 2.1, and some past chapter.
+
+**Thoughts:** Wow, it's been 10 straight days. 90 to go.
+
+**Link to work:** On local host. 
+
+
+
+<div class="divider"></div>
+
 
 
 
