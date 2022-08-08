@@ -114,7 +114,7 @@ Proof of Schröder-Bernstein Theorem _kicked_ my ass. It took me about 4 hour (i
 
 **Today's Progress**: Finished up until exercises 2.1.4.
 
-**Thoughts:** Sequences are pretty intuitive. Also I'm doing this in between work. Quite effective.
+**Thoughts:** Sequences are pretty intuitive. Also I'm doing this in between work. Quite effective. Had issue with loading into webpage. It turns out I cant use three dashes anymore for hline. Need to use three asterisks.
 
 **Link to work:** [Solution to Abbott](https://zul.rocks/abbott-solution/).
 
