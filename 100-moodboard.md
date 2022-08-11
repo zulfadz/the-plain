@@ -106,5 +106,25 @@ title: Log - 100 days of moodboard
 
 **Link to work:**  
 
+<div class="divider"></div>
+
+##### Day 9: August 10, 2022
+
+**Today's Progress**: Late night shopping at uniqlo.
+
+**Thoughts:** 
+
+**Link to work:**  
+
+<div class="divider"></div>
+
+##### Day 10: August 11, 2022
+
+**Today's Progress**: It's a ghost festival.
+
+**Thoughts:** 
+
+**Link to work:**  
+
 
 

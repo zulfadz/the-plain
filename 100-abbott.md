@@ -122,6 +122,30 @@ Proof of Schröder-Bernstein Theorem _kicked_ my ass. It took me about 4 hour (i
 
 <div class="divider"></div>
 
+##### Day 10: August 9, 2022
+
+**Today's Progress**: Spent like 20min
+
+**Thoughts:** Hard to pay attention because bosses are having meeting
+
+**Link to work:** [Solution to Abbott](https://zul.rocks/abbott-solution/).
+
+
+
+<div class="divider"></div>
+
+##### Day 11: August 11, 2022
+
+**Today's Progress**: Finished to exercises 2.2.7.
+
+**Thoughts:** Interesting exercises on the definition of eventually and frequently!
+
+**Link to work:** [Solution to Abbott](https://zul.rocks/abbott-solution/).
+
+
+
+<div class="divider"></div>
+
 
 
 

@@ -101,9 +101,27 @@ title: Log - 100 days of working out
 
 ##### Day 7: August 9, 2022
 
-**Today's Progress**: .
+**Today's Progress**: Arm day
 
-**Thoughts:**  
+**Thoughts:**  Quick one during lunch. Also dr. hana texted me while i was working out
+
+
+<div class="divider"></div>
+
+##### Day 8: August 10, 2022
+
+**Today's Progress**: Leg day
+
+**Thoughts:**  Stopped by gym on the way to a putrajaya meeting. But meeting got cancelled. But i worked out anyway.
+
+
+<div class="divider"></div>
+
+##### Day 9: August 11, 2022
+
+**Today's Progress**: Tennis
+
+**Thoughts:**  My forehand still looks weird. But my backhand is better. I need to practice serving with new grip.
 
 
 <div class="divider"></div>
