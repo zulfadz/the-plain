@@ -11,6 +11,7 @@ title: List of ideas and projects
 2. Cantor theorem (power set, or 0,1)
 3. Adding infinite sequences is not commutative
 4. Manipulation in finite setting does not always extend to infinite setting
+5. $$[0,1) \sim (0,1)$$
 
 
 

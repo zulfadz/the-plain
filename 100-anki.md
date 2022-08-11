@@ -123,6 +123,18 @@ title: Log - 100 days of anki
 
 <div class="divider"></div>
 
+##### Day 11: August 9, 2022
+
+**Today's Progress**: Today, I reviewed past concepts from 15min.
+
+**Thoughts:** It became a little bit easy these days I'm not sure if I'm doing this right.
+
+**Link to work:** On local host. 
+
+
+
+<div class="divider"></div>
+
 
 
 
