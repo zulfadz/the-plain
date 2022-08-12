@@ -146,6 +146,24 @@ Proof of Schröder-Bernstein Theorem _kicked_ my ass. It took me about 4 hour (i
 
 <div class="divider"></div>
 
+##### Day 12: August 12, 2022
+
+**Today's Progress**: Finished exercises 2.2.8.
+
+**Thoughts:** Tripped by this question: If a sequence contains an infinite number of zeros, is it necessarily zero-heavy? But it becomes clear how to disprove this if I just re-phrase the definition of zero-heavy from: 
+
+>if there exists $$M \in \mathbb N$$ such that for all $$N \in \mathbb N$$ there exists $$n$$ satisfying $$N \leq n \leq N + M$$ where $$x_{n} = 0$$
+
+to
+
+> given any $$M$$, there exists $$N$$ such that for all $$n$$ satisfying $$N \leq n \leq N + M$$,  $$x_{n} \neq 0$$.
+
+**Link to work:** [Solution to Abbott](https://zul.rocks/abbott-solution/).
+
+
+
+<div class="divider"></div>
+
 
 
 
