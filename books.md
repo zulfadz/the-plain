@@ -4,18 +4,14 @@ title: Books
 permalink: /books/
 ---
 
-<details>
-<summary><b>To-read list</b></summary>
+<a name="toc"></a>
 
-<ul>
+[_Read/Reading List_](#rl) [_To-Read List_](#tbr) 
 
-<li>Axler's Linear Algebra</li>
-<li>Aluffi's Algebra: Chapter 0</li>
-<li>Jocko's Discipline Equals Freedom</li>
 
-</ul>
 
-</details>
+
+<a name="rl"></a>
 
 <b>Read/Reading list</b>
 
@@ -26,7 +22,7 @@ permalink: /books/
 
 <img src="https://images-na.ssl-images-amazon.com/images/I/310O3IYeQ4L._SX330_BO1,204,203,200_.jpg" width="15%" />
 
-**9/10**. Loving the exercises. There is a sense of purpose to the exercises because the author clearly motivates the problem.
+**9.5/10**. Loving the exercises. There is a sense of purpose to the exercises because the author clearly motivates the problem.
 
 
 
@@ -44,4 +40,29 @@ permalink: /books/
 
 <div class="divider"></div>
 
+##### Can't Hurt Me
+<font size="2"> Entry date: Aug 13, 2022. Status: Completed.</font> 
 
+
+<img src="https://images-na.ssl-images-amazon.com/images/I/812jTyNSu1L.jpg" width="15%" />
+
+**10/10**. When life gets rough, think: what would Goggins do?
+
+
+
+<div class="divider"></div>
+
+<a name="tbr"></a>
+
+<details>
+<summary><b>To-read list</b></summary>
+
+<ul>
+
+<li>Axler's Linear Algebra</li>
+<li>Aluffi's Algebra: Chapter 0</li>
+<li>Jocko's Discipline Equals Freedom</li>
+
+</ul>
+
+</details>
