@@ -5,15 +5,16 @@ permalink: /books/
 ---
 
 <a name="toc"></a>
-<pre>
-[_Read/Reading List_](#rl)  [_To-Read List_](#tbr) 
-</pre>
+
+>[_Read/Reading List_](#rl)  
+>[_To-Read List_](#tbr) 
+
 
 
 
 <a name="rl"></a>
 
-<b>Read/Reading list</b>
+<b>Read/Reading List</b>
 
 
 ##### Understanding Analysis
@@ -55,7 +56,7 @@ permalink: /books/
 <a name="tbr"></a>
 
 <details>
-<summary><b>To-read list</b></summary>
+<summary><b>To-read List</b></summary>
 
 <ul>
 
