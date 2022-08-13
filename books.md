@@ -23,7 +23,7 @@ permalink: /books/
 
 <img src="https://images-na.ssl-images-amazon.com/images/I/310O3IYeQ4L._SX330_BO1,204,203,200_.jpg" width="15%" />
 
-**9.5/10**. Loving the exercises. There is a sense of purpose to the exercises because the author clearly motivates the problem.
+**9.5/10**. Loving the exercises. There is a sense of purpose to the exercises because the author clearly motivates the problem. Also math is so much more fun when studied outside of school.
 
 
 
