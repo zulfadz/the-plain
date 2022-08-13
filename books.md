@@ -5,9 +5,9 @@ permalink: /books/
 ---
 
 <a name="toc"></a>
-
-[_Read/Reading List_](#rl) [_To-Read List_](#tbr) 
-
+<pre>
+[_Read/Reading List_](#rl)  [_To-Read List_](#tbr) 
+</pre>
 
 
 
