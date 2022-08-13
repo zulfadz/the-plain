@@ -23,6 +23,6 @@ One of my mantras is this quote by Georgia O'Keeffe:
 
 > I do not like the idea of happiness -- it is too momentary. I would say that I was always busy and interested in something -- interest has more meaning to me than the idea of happiness.
 
-You may read my public [habit tracker](https://zul.rocks/habits/) and its [visual companion](https://zul.rocks/moodboard-100/)
+You may read my public [habit tracker](https://zul.rocks/habits/) and its [visual companion](https://zul.rocks/moodboard-100/). You can also view my daily [moodboard](https://zul.rocks/moodboard-master/).
 
 
