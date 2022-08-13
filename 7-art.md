@@ -46,9 +46,9 @@ title: Log - 7 weeks of creating art
 
 <div class="divider"></div>
 
-##### Week 3: August 14, 2022
+##### Week 3: August 13, 2022
 
-**Today's Progress**: 
+**Today's Progress**: Did pencil and fountain pen sketch of a building
 
 **Thoughts:** 
 

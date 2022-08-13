@@ -147,9 +147,21 @@ title: Log - 100 days of anki
 
 <div class="divider"></div>
 
-##### Day 12: August 11, 2022
+##### Day 13: August 12, 2022
 
 **Today's Progress**: Today, I reviewed past concepts from 27min.
+
+**Thoughts:** 
+
+**Link to work:** On local host. 
+
+
+
+<div class="divider"></div>
+
+##### Day 14: August 13, 2022
+
+**Today's Progress**: Today, I reviewed past concepts from 20min.
 
 **Thoughts:** 
 

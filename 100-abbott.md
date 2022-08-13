@@ -164,6 +164,25 @@ to
 
 <div class="divider"></div>
 
+##### Day 13: August 13, 2022
+
+**Today's Progress**: Read and ankify section 2.3.
+
+**Thoughts:** Nice useful use of triangle lemma is that we can show $$\lvert b_{n} -b \rvert < \epsilon$$ implies $$ \lvert b_{n} \rvert < \lvert b \rvert + \epsilon $$ and $$\lvert b_{n} \rvert > \lvert b \rvert -\epsilon $$. The former follows from
+
+>$$ \lvert b_{n} \rvert = \lvert b_{n} -b +b \rvert \leq \lvert b_{n} -b \rvert + \lvert b \rvert < \epsilon +\lvert b \rvert $$
+
+and the latter follows from
+
+>$$ \lvert b \rvert = \lvert b - b_{n}+ b_{n} \rvert \leq \lvert b_{n} -b \rvert + \lvert b_{n} \rvert < \epsilon +\lvert b_{n} \rvert $$
+
+
+**Link to work:** [Solution to Abbott](https://zul.rocks/abbott-solution/).
+
+
+
+<div class="divider"></div>
+
 
 
 
