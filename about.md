@@ -19,8 +19,10 @@ I am also working on other projects. Notes and solutions will be posted as soon 
 + esa's mooc on [earth observation from space](https://www.imperativemoocs.com/courses/the-optical-view). <span style="color:gray">(notes)(solutions)</span>
 + aops' counting and probability. <span style="color:gray">(notes)(solutions)</span>
 
-## Personality
+One of my mantras is this quote by Georgia O'Keeffe:
 
-A certified INFP, I may or may not always fall into his idealistic tendencies.
+> I do not like the idea of happiness -- it is too momentary. I would say that I was always busy and interested in something -- interest has more meaning to me than the idea of happiness.
+
+You may read my public [habit tracker](https://zul.rocks/habits/) and its [visual companion](https://zul.rocks/moodboard-100/)
 
 
