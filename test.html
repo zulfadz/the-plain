@@ -17,7 +17,6 @@ layout: default
 	
 
 	{% for post in site.posts %}
-	<div class="trial {{post.keywords}}">
 		{% unless post.next %}
 			<h3 class="code">{{ post.date | date: '%Y' }}</h3>
 		{% else %}
@@ -33,12 +32,11 @@ layout: default
 				<div class="post-date code>
 					<span>{{ post.date | date: "%b %d" }}</span>
 				</div>
-				<div class="title">
+				<div class="title {{post.keywords}}">
 					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
 				</div>
 			</li>
 		</ul>
-	</div>
 	{% endfor %}
 
 </section>
@@ -47,7 +45,7 @@ layout: default
 	filterSelection("all")
 	function filterSelection(c) {
 	  var x, i;
-	  x = document.getElementsByClassName("trial");
+	  x = document.getElementsByClassName("title");
 	  if (c == "all") c = "";
 	  for (i = 0; i < x.length; i++) {
 		w3RemoveClass(x[i], "show");
