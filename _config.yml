@@ -1,8 +1,8 @@
 # Site Info
 title:              "Zul's scribbles"
 description:        ""
-author_name:        "zulfadzli" # change this to your name
-logo_url:           https://zulfadz.github.io/assets/favicon-96x96.png # Get it from GitHub API: https://api.github.com/users/<username>
+author_name:        "Zul-Fadzli Abu Bakar" # change this to your name
+logo_url:           https://avatars.githubusercontent.com/u/104760526?v=4 # Get it from GitHub API: https://api.github.com/users/<username>
                     
 # Site Settings
 url:                https://zulfadz.github.io # main url
