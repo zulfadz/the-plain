@@ -32,7 +32,7 @@ Select $$N_{2}$$ such that for all $$n > N_{2}$$, $$0<\frac{N_{1}(M-\epsilon^{\p
 
 $$\begin{align*}
 \vert y_{n}-l \rvert &=\frac{N_{1}(M-\epsilon^{\prime})}{n} +\epsilon^{\prime} \\
-&\leq \epsilon^{\prime} + \epsilon^{\prime} = 2\epsilon^{\prime} = \epsilon,
+&< \epsilon^{\prime} + \epsilon^{\prime} = 2\epsilon^{\prime} = \epsilon,
 \end{align*}$$
 
 hence $$y_{n} \to l$$.
