@@ -8,14 +8,15 @@ keywords: "analysis"
 
 There is this cool problem from Abbott section 2.3 called "Cesaro means" which states that:
 
-> Show that if $$(x_{n})$$ is a convergent sequence, then the sequence given by the averages $$y_{n} = \frac{x_{1} +x_{2} +···+x_{n}}{n}$$ also converges to the same limit.
+> Show that if $$(x_{n})$$ is a convergent sequence, then the sequence given by the averages $$y_{n} = \dfrac{x_{1} +x_{2} +···+x_{n}}{n}$$ also converges to the same limit.
 
 Initially I thought it was a trivial case of algebraic limit theorem, but it turned out to be more interesting than that. 
 
 Suppose $$x_{n} \to l$$. Then, there exists $$N_{1}$$ such that $$\lvert x_{n}-l\rvert<\epsilon$$ for all $$n> N_{1}$$. Note that
 
 $$\begin{align*}
-\lvert y_{n}-l \rvert &=  \lvert \frac{x_{1} +x_{2} +\cdots+x_{N_{1}}+\cdots+x_{n}-nl}{n} \rvert \\
+\lvert y_{n}-l \rvert &=\lvert \frac{x_{1} +x_{2} +\cdots+x_{N_{1}}+\cdots+x_{n}}{n}-l \rvert\\
+&=  \lvert \frac{x_{1} +x_{2} +\cdots+x_{N_{1}}+\cdots+x_{n}-nl}{n} \rvert \\
 &\leq \frac{1}{n}(\rvert x_{1}-l \lvert + \lvert x_{2}-l \rvert +\cdots + \lvert x_{N_{1}}-l \rvert +\cdots+ \lvert x_{n}-l \rvert) \text{ by triangle inequality}.
 \end{align*}$$
 
