@@ -28,7 +28,7 @@ $$\begin{align*}
 &=\frac{N_{1}(M-\epsilon^{\prime})}{n} +\epsilon^{\prime}.
 \end{align*}$$
 
-Select $$N_{2}$$ such that for all $$n > N$$, $$0<\frac{N_{1}(M-\epsilon^{\prime})}{n}<\epsilon^{\prime}$$. Therefore, for all $$n > \max\{N_{1},N_{2}\}$$,
+Select $$N_{2}$$ such that for all $$n > N_{2}$$, $$0<\frac{N_{1}(M-\epsilon^{\prime})}{n}<\epsilon^{\prime}$$. Therefore, for all $$n > \max\{N_{1},N_{2}\}$$,
 
 $$\begin{align*}
 \vert y_{n}-l \rvert &=\frac{N_{1}(M-\epsilon^{\prime})}{n} +\epsilon^{\prime} \\
