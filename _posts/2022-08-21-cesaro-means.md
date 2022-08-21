@@ -19,7 +19,7 @@ $$\begin{align*}
 &\leq \frac{1}{n}(\rvert x_{1}-l \lvert + \lvert x_{2}-l \rvert +\cdots + \lvert x_{N_{1}}-l \rvert +\cdots+ \lvert x_{n}-l \rvert) \text{ by triangle inequality}.
 \end{align*}$$
 
-Select $$M > \max\{\lvert x_{n}-l \rvert \lvert \forall n \in \mathbb N\}$$ and $$\epsilon^{\prime} = \epsilon/2$$. Hence $$M>\epsilon^{\prime}$$. It follows that
+Select $$M > \max\{\lvert x_{n}-l \rvert : \forall n \in \mathbb N\}$$ and $$\epsilon^{\prime} = \epsilon/2$$. Hence $$M>\epsilon^{\prime}$$. It follows that
 
 $$\begin{align*}
 \lvert y_{n}-l \rvert &\leq \frac{1}{n}(M+M+\cdots + \epsilon^{\prime}+\cdots+\epsilon^{\prime}) \\
