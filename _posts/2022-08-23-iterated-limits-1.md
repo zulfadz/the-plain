@@ -28,7 +28,7 @@ Interestingly, the existence of double limit does not imply the existence of ite
 
 $$\begin{array}{llllll}(-1/1) +(-1/1)& (-1/2)+(1/1) & (-1/3)+(-1/1) & \cdots & (-1/n)+((-1)^{n}/1) & \cdots \\ (1/1)+(-1/2) & (1/2)+(1/2) & (1/3)+(-1/2)& \cdots & (1/n)+((-1)^{n}/2) & \cdots\\ (-1/1)+(-1/3) & (-1/2)+(1/3) & (-1/3)+(1/3) & \cdots & (-1/n)+((-1)^{n}/3) & \cdots\\ \vdots & & & & & \end{array}$$
 
-Indexing the rows by $m$ and the columns by $n$, this array can be represented by the sequence $$(\frac{(-1)^{m}}{n}+\frac{(-1)^{n}}{m})$$. Clearly, when both $$m,n \to \infty$$, the limit of the sequence is zero.
+Indexing the rows by $$m$$ and the columns by $$n$$, this array can be represented by the sequence $$(\frac{(-1)^{m}}{n}+\frac{(-1)^{n}}{m})$$. Clearly, when both $$m,n \to \infty$$, the limit of the sequence is zero.
 
 
 How about iterated limits? Fixing $$m$$ and considering $$n \to \infty$$, we find that there is no limit. Similarly if we fix $$n$$ and consider $$m \to \infty$$.
