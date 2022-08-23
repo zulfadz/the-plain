@@ -10,7 +10,7 @@ Consider a doubly indexed array $$a_{mn}$$ where $$m, n \in \mathbb N$$, which c
 
 $$\begin{array}{llllll}a_{11} & a_{12} & \cdots & \cdots & \cdots \\ a_{21} & a_{22} & \cdots & \cdots & \\ \vdots & & & & \end{array}$$
 
-What can we say about the limit when $$n,m \to \infty$$. There are three ways to show this. First, is to fix $$n$$, find the limit when $$m \to \infty$$, before considering $$n \to \infty$$
+What can we say about the limit when $$n,m \to \infty$$? There are three ways to show this. First, is to fix $$n$$, find the limit when $$m \to \infty$$, before considering $$n \to \infty$$
 
 $$\begin{align*}
 \lim_{n \to \infty} (\lim_{m \to \infty} a_{mn})
@@ -22,7 +22,7 @@ $$\begin{align*}
 \lim_{m \to \infty} (\lim_{n \to \infty} a_{mn})
 \end{align*}.$$
 
-These two are called iterated limits. The third approach is to simply consider both $$m,n$$ at the same time. That is, define $$\lim_{m,n \to \infty} a_{mn} =a$$ as for all $$\epsilon >0$$ there exists an $$N \in \mathbb N$$ such that if both $$m,n \geq N$$, then $$\rvert a_{mn} −a \lvert <\epsilon$$. We call this the double limit.
+These two are called iterated limits. The third approach is to simply consider both $$m,n$$ at the same time. That is, define $$\lim_{m,n \to \infty} a_{mn} =a$$ to be, for all $$\epsilon >0$$ there exists an $$N \in \mathbb N$$ such that if both $$m,n \geq N$$, then $$\rvert a_{mn} −a \lvert <\epsilon$$. We call this third approach the double limit.
 
 Interestingly, the existence of double limit does not imply the existence of iterated limits. For instance, consider the array
 
@@ -33,13 +33,13 @@ Indexing the rows by $$m$$ and the columns by $$n$$, this array can be represent
 
 How about iterated limits? Fixing $$m$$ and considering $$n \to \infty$$, we find that there is no limit. Similarly if we fix $$n$$ and consider $$m \to \infty$$.
 
-Similarly, the existence of iterated limits does not imply the existence of double limit. For example, consider $$a_{mn} =mn/(m^{2} +n^{2})$$. Fixing $$m$$, $$\lvert mn/(m^{2} +n^{2}) \rvert \leq \lvert mn/(n^{2}) \rvert = \lvert m/n \rvert$$, which goes to zero as $$n \to \infty$$. Therefore, 
+On the other hand, the existence of iterated limits also does not imply the existence of double limit. For example, consider $$a_{mn} =mn/(m^{2} +n^{2})$$. Fixing $$m$$, $$\lvert mn/(m^{2} +n^{2}) \rvert \leq \lvert mn/(n^{2}) \rvert = \lvert m/n \rvert$$, which goes to zero as $$n \to \infty$$. Therefore, 
 
 $$\begin{align*}
 \lim_{m \to \infty} (\lim_{n \to \infty} a_{mn}) = \lim_{m \to \infty} 0 =0.
 \end{align*}$$
 
-Meanwhile, double limit does not exist in this case -- because we can find different limits depending on how $$n$$ is defined relative to $$m$$. For instance, if $$n=m$$, then $$a_{mn}=m^{2}/2m^{2}=1/2$$. Meanwhile if $$n = 2m$$, then $$2m^{2}/5m^{2}=2/5$$. This contradicts the unique property of limit.
+Meanwhile, double limit does not exist in this case -- because there are different limits depending on how $$n$$ is defined relative to $$m$$. For instance, if $$n=m$$, then $$a_{mn}=m^{2}/2m^{2}=1/2$$. Meanwhile if $$n = 2m$$, then $$2m^{2}/5m^{2}=2/5$$. This contradicts the unique property of limit.
 
 
 
