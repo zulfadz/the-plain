@@ -19,7 +19,7 @@ For the third criterion, we wish to show that $$\bigcup_{a \geq 0} (a, \infty) =
 
 Let $$x \in \bigcup_{a \geq 0} (a, \infty)$$. Then $$x>a$$ for at least one $$a$$. As $$a \geq \inf a$$ for all $$a$$, $$x>\inf a$$. Thefore, $$x \in (\inf a, \infty)$$, which means $$\bigcup_{a \geq 0} (a, \infty) \subset (\inf a, \infty).$$
 
-Similarly, let $$x \in (\inf a, \infty).$$ Then $$x > \inf a$$. By definition of infimum, for any $$\epsilon>0$$, there exists $$a$$ satisfying $$a < \inf a + \epsilon$$. Thus, picking $$\epsilon = x - \inf a$$ there exists $$a$$ satisfying $$a < x$$. Hence, $$x \in \bigcup_{a \geq 0} (a, \infty)$$, which means $$(\inf a, \infty) \subset \bigcup_{a \geq 0} (a, \infty).$$ And we are done showing $$\bigcup_{a \geq 0} (a, \infty) = (\inf a, \infty).$$ Finally, since $$(\inf a, \infty)$$ is in $$\Omega$$, we have verified the third criterion.
+Similarly, let $$x \in (\inf a, \infty).$$ Then $$x > \inf a$$. By definition of infimum, for any $$\epsilon>0$$, there exists $$a$$ satisfying $$a < \inf a + \epsilon$$. Thus, picking $$\epsilon = x - \inf a$$ there exists $$a$$ satisfying $$a < x$$. Hence, $$x \in \bigcup_{a \geq 0} (a, \infty)$$. This implies $$(\inf a, \infty) \subset \bigcup_{a \geq 0} (a, \infty).$$ And we are done showing $$\bigcup_{a \geq 0} (a, \infty) = (\inf a, \infty).$$ Finally, since $$(\inf a, \infty)$$ is in $$\Omega$$, we have verified the third criterion.
 
 A side note is to see the implication if we change the problem statement, instead of open rays $$(a,+\infty)$$, we consider closed rays $$[a,+\infty)$$. We see that $$\Omega$$ is _not_ a topological structure. For instance, let $$a = 1\frac{1}{n}$$. Then the infinite union of the closed rays is an open ray $$(1, \infty)$$, which is not in $$\Omega$$.
 
