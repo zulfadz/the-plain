@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Interesting topology of open rays (a, $$\infty$$)"
+title: "Interesting topology of open rays"
 comments: true
 description: "math"
 keywords: "topology"
