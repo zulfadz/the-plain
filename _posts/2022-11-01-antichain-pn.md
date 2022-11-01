@@ -12,7 +12,7 @@ For some reason, I have problem retaining the concept of antichain, so I'm writi
 
 As an example, this is not antichain, $$\{\{1\},\{1,2,3\}\}.$$ Whereas this is antichain $$\{\{4\},\{1,2,3\}\}.$$
 
-To prove that there exists an antichain that is uncountable, we observe two facts. First, the set $$S = \{(a_{1},a_{2},a_{3}, \cdots :a_{i} \text{ is either } 0 \text{ or } 1\}$$ is uncountable. Second, the set of even numbers $$E=\{2,4,6,\cdots\}$$ and the set of odd numbers $$O = \{1,3,5,\cdots\}$$ are disjoint.
+To prove that there exists an antichain that is uncountable, we observe two facts. First, the set $$S = \{(a_{1},a_{2},a_{3}, \cdots) :a_{i} \text{ is either } 0 \text{ or } 1\}$$ is uncountable. Second, the set of even numbers $$E=\{2,4,6,\cdots\}$$ and the set of odd numbers $$O = \{1,3,5,\cdots\}$$ are disjoint.
 
 For each $$s \in S, s= (s_{1},s_{2},s_{3}, \cdots)$$, construct a set $$A_s$$ in the following way:
 
@@ -23,5 +23,5 @@ $$\begin{align}
 
 Repeat the same procedure to construct a collection of sets $$\{A_{s}:s \in S \}.$$
 
-Note that for $$s \neq j$$, $$A_{s}$$ and $$A_{j}$$ are disjoint because $$E$$ and $$O$$ are disjoint. There are also uncountably many distinct $$A_{s}$$ because there are uncountably many distinct elements of $$S$$. Finally, we need to ascertain that each $$A_{s}$$ is a subset of $$\mathbb N$$ to satisfy the definition of antichain. This follows from each $$A_{s} \subseteq E \cup O = \mathbb N$$. Therefore, the collection $$\{A_{s}:s \in S \}$$ forms an uncountable antichain.
+Note that for $$s \neq j$$, $$A_{s}$$ and $$A_{j}$$ are disjoint because $$E$$ and $$O$$ are disjoint. There are also uncountably many distinct $$A_{s}$$ because there are uncountably many distinct elements of $$S$$. Finally, we need to ascertain that each $$A_{s}$$ is a subset of $$\mathbb N$$ to satisfy the definition of power set $$P(\mathbb N)$$. This follows from each $$A_{s} \subseteq E \cup O = \mathbb N$$. Therefore, the collection $$\{A_{s}:s \in S \}$$ forms an uncountable antichain.
 
