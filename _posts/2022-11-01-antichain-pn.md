@@ -3,10 +3,10 @@ layout: post
 title: "Forming an uncountable antichain from P(N)"
 comments: true
 description: "math"
-keywords: "topology"
+keywords: "analysis"
 ---
 
-For some reason, I had problem retaining the concept of antichain, so I'm writing this proof out to reinforce my understanding. 
+For some reason, I have problem retaining the concept of antichain, so I'm writing this proof out to reinforce my understanding. 
 
 > Consider the power set of natural numbers, $$P(\mathbb N)$$. A subset $$A$$ of $$P(\mathbb N)$$ is defined as antichain if no element in $$A$$ is a subset of another element in $$A$$. Show that there exists an antichain that is uncountable.
 
@@ -23,5 +23,5 @@ $$\begin{align}
 
 Repeat the same procedure to construct a collection of sets $$\{A_{s}:s \in S \}.$$
 
-Note that for $$s \neq j$$, $$A_{s}$$ and $$A_{j}$$ are disjoint because $$E$$ and $$O$$ are disjoint. There are also uncountably many distinct $$A_{s}$$ because there are uncountably many distinct elements of $$S$$. Finally, we need to ascertain that each $$A_{s}$$ is a subset of $$\mathbb N$$ to satisfy the definition of antichain. This follows from each $$A_{s} \subset E \cup O = \mathbb N$$. Therefore, the collection $$\{A_{s}:s \in S \}$$ forms an uncountable antichain.
+Note that for $$s \neq j$$, $$A_{s}$$ and $$A_{j}$$ are disjoint because $$E$$ and $$O$$ are disjoint. There are also uncountably many distinct $$A_{s}$$ because there are uncountably many distinct elements of $$S$$. Finally, we need to ascertain that each $$A_{s}$$ is a subset of $$\mathbb N$$ to satisfy the definition of antichain. This follows from each $$A_{s} \subseteq E \cup O = \mathbb N$$. Therefore, the collection $$\{A_{s}:s \in S \}$$ forms an uncountable antichain.
 
